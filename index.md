@@ -18,9 +18,9 @@ feature_row:
     alt: "Metal bridge"
     title: "Steel Truss"
     excerpt: "Steel truss designed for research"
-  - image_path: assets/img/Zidex-Thumbnail.jpg
-    title: "Bespoke IDEX 3D Printer"
-    excerpt: "Multimaterial printing. "
+  - image_path: /assets/img/stroller prototype.pdf
+    title: "Medical Stroller Prototype"
+    excerpt: "Medical Stroller Prototype "
 ---
 
 {% include feature_row %}
