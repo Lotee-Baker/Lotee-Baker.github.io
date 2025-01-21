@@ -13,9 +13,9 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "Lotee Baker"
 title_separator          : "-"
-subtitle                 : "Example Website for Class"
+subtitle                 : "Mechanical Engineering Portfolio"
 name                     : &name "Lotee Baker" # &name is a YAML anchor which can be *referenced later
-description              : &description "Example website for class "
+description              : &description "Mechanical Engineering Portfolio "
 url                      : https://Lotee-Baker.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : 
@@ -101,23 +101,12 @@ author:
   bio              : "An student with a passion for entertainment engineering "
   location         : "Nashville, TN"
   links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/DrD-Flo"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/dr.dflo"
 
 
 # Site Footer
 footer:
   links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/DrD-Flo"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/dr.dflo"
+   
 
 
 # Reading Files
