@@ -10,7 +10,7 @@ header:
       url: "/portfolio/"
 excerpt: "Lotee Baker is an mechanical engineering student with a passion for entertainment engineering."
 feature_row:
-  - image_path: /assets/img/Linear Actuator.pdf
+  - image_path: /assets/img/Syringe 2.pdf
     alt: "Syringe Pump"
     title: "Syringe Pump"
     excerpt: "A DIT syringe pump capable of 1 uL / min flow rate up to 10 mL/min"
