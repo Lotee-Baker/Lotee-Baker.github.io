@@ -14,8 +14,7 @@ feature_row:
     alt: "Syringe Pump"
     title: "Syringe Pump"
     excerpt: "A DIT syringe pump capable of 1 uL / min flow rate up to 10 mL/min"
-  - image_path: /assets/img
-/IMG_6910.jpg
+  - image_path: /assets/img/IMG_6910.jpg
     alt: "Metal bridge"
     title: "Steel Truss"
     excerpt: "Steel truss designed for research"
