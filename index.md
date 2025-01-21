@@ -1,5 +1,5 @@
 ---
-title: "Example Web Page"
+title: "Mechanical Engineering Portfolio"
 layout: splash
 header:
   overlay_color: "#000"
