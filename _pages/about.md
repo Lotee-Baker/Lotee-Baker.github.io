@@ -26,5 +26,5 @@ Entertainment Mechanical Engineering Contractor
 Soldering | Python | Excel | Written Communication | 3D Printing | Problem solving | Verbal Communication |‬‭ Chemical and‬
 ‭ Physical Safety for Research Labs Training | 3D Slicer | Laser Cutting | SolidWorks‬‭ | Microsoft Office Programs‬‭ | Detail Oriented |‬
 ‭
-*Digital Fabrication Tools 
-  *Fusion 360
+* Digital Fabrication Tools 
+  * Fusion 360
