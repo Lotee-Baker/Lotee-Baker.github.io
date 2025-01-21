@@ -1,31 +1,30 @@
 ---
 
-title: "About David Florian"
+title: "About Lotee Baker"
 
 ---
+Lotee is a knowledgeable, self-starter, and performance driven Mechanical Engineering student with passion for positively impacting people’s lives‬
+‭ through engineering. Excels at problem solving and learning quickly, looking to attain an internship position.‬
+‭
 
 ## Education
 
-David prides himself on his diverse skill set. His most prominent fields of expertise are additive manufacturing (i.e., 3D printing) and biotechnology. 
-
-* University of Virginia
-  * BS Mathematics
-  * BS Biomedical Engineering
 * Vanderbilt University
-  * PhD Biomedical Engineering
+  * BS Mechanical Engineering
+Expected Graduation: 2027
+
+## Work Experience 
+
+*Entertainment Mechanical Engineering Contractor
+  * Repaired and maintained electrical systems in laser tag vests, resolving complex issues efficiently.‬
+  * Designed and installed a custom animatronic, integrating mechanical and electrical components to enhance player experience.
+  * Demonstrated strong problem-solving and creative skills throughout project management and execution.‬
+‭
 
 ## Technical Skills
 
-David can operate a number of different computer controlled (CNC) fabrication tools to turn 3D models into real-life parts. David has experience with the following additive manufacturing technologies:
-
-* Fused Filament Fabrication (FFF)
-* Stereolithography (SLA)
-* Selective Laser Sintering (SLS)
-* 3D Inkjet Printing
-* Bioplotting
-
-## Press 
-
-The new Digital Fabrication Minor was covered in the [Vanderbilt Hustler](https://vanderbilthustler.com/2022/11/09/digital-fabrication-minor-introduced-for-2022-23-academic-year/).
-
-<img src="/assets/img/David_Headshot_web2.jpg" alt="David Florian" style="width:200px;"/>
+Soldering | Python | Excel | Written Communication | 3D Printing | Problem solving | Verbal Communication |‬‭ Chemical and‬
+‭ Physical Safety for Research Labs Training | 3D Slicer | Laser Cutting | SolidWorks‬‭ | Microsoft Office Programs‬‭ | Detail Oriented |‬
+‭
+*Digital Fabrication Tools 
+  *Fusion 360
