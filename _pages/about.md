@@ -15,7 +15,7 @@ Expected Graduation: 2027
 
 ## Work Experience 
 
-*Entertainment Mechanical Engineering Contractor
+Entertainment Mechanical Engineering Contractor
   * Repaired and maintained electrical systems in laser tag vests, resolving complex issues efficiently.‬
   * Designed and installed a custom animatronic, integrating mechanical and electrical components to enhance player experience.
   * Demonstrated strong problem-solving and creative skills throughout project management and execution.‬
