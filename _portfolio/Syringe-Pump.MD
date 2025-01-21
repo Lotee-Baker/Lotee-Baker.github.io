@@ -24,4 +24,9 @@ Using Fusion 360, I designed custom components such as end supports, a motor mou
 # Markdown Table
 Link to table of custom and off the shelf parts [Bill of Materials](https://vanderbilt643.autodesk360.com/g/projects/20220916557357901/data/dXJuOmFkc2sud2lwcHJvZDpmcy5mb2xkZXI6Y28uR1JZUUdBeHFRTzZtVDJEcFFDY05fUQ/dXJuOmFkc2sud2lwcHJvZDpkbS5saW5lYWdlOkVHRDY0ME9RVEYyMllrUUVnaFRXeUE/bom?compositionType=WORKING&version=75)
 
+# Arduino Code
+Link to Arduino [code](https://docs.google.com/document/d/14Vla2uPnEnLVWwXNtGN3LCafFqIqiaF9xacnmZB2fOg/edit?usp=sharing)
+
+
+
 {% include gallery caption="Large Format 3D Printer Gallery" %}
