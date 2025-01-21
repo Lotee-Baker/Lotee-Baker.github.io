@@ -13,7 +13,7 @@ feature_row:
   - image_path: /assets/img/Linear Actuator.pdf
     alt: "Syringe Pump"
     title: "Syringe Pump"
-    excerpt: "Built for constant syringe flow with use of a linear actuator"
+    excerpt: "A DIT syringe pump capable of 1 uL / min flow rate up to 10 mL/min"
   - image_path: assets/img/Plasma-Cutter-Banner.jpg
     alt: "placeholder image 2"
     title: "DIY Plasma Cutter"
