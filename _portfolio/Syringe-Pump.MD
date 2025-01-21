@@ -21,7 +21,7 @@ Using Fusion 360, I designed custom components such as end supports, a motor mou
 # CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH512d4QTec90decfa6e6924d2751dcf233c?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
-#Markdown Table
-[Bill o f Materials](https://vanderbilt643.autodesk360.com/g/projects/20220916557357901/data/dXJuOmFkc2sud2lwcHJvZDpmcy5mb2xkZXI6Y28uR1JZUUdBeHFRTzZtVDJEcFFDY05fUQ/dXJuOmFkc2sud2lwcHJvZDpkbS5saW5lYWdlOkVHRDY0ME9RVEYyMllrUUVnaFRXeUE/bom?compositionType=WORKING&version=75)
+# Markdown Table
+Link to table of custom and off the shelf parts [Bill of Materials](https://vanderbilt643.autodesk360.com/g/projects/20220916557357901/data/dXJuOmFkc2sud2lwcHJvZDpmcy5mb2xkZXI6Y28uR1JZUUdBeHFRTzZtVDJEcFFDY05fUQ/dXJuOmFkc2sud2lwcHJvZDpkbS5saW5lYWdlOkVHRDY0ME9RVEYyMllrUUVnaFRXeUE/bom?compositionType=WORKING&version=75)
 
 {% include gallery caption="Large Format 3D Printer Gallery" %}
