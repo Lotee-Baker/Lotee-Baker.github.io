@@ -24,5 +24,5 @@ feature_row:
 ---
 
 {% include feature_row %}
-Lotee is trying to fix this 
+ 
 
