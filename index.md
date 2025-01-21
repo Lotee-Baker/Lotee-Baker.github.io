@@ -10,7 +10,7 @@ header:
       url: "/portfolio/"
 excerpt: "Lotee Baker is an mechanical engineering student with a passion for entertainment engineering."
 feature_row:
-  - image_path: [assets/img/CNC-Mill-Thumbnail.jpg](https://lh3.googleusercontent.com/SKFLFNghjct-UZS6bvt8j3BVDZOo8pKpLhOfpmUiecaMopJqacjVtfAaqfJFVIuPxN675QLWNT5BC6VF2uXAyCKy3L3kizsvSzxjX2ca0d2KhvqgM13DmE9DEPWDZzYAFg=w1280)
+  - image_path: /assets/img/Linear Actuator.pdf
     alt: "Syringe Pump"
     title: "Syringe Pump"
     excerpt: "Built for constant syringe flow with use of a linear actuator"
