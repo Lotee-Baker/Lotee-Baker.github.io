@@ -4,7 +4,7 @@ layout: splash
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/img/welding .jpeg
+  overlay_image: /assets/img/welding.jpeg
   actions:
     - label: "My Projects"
       url: "/portfolio/"
@@ -18,8 +18,7 @@ feature_row:
     alt: "Metal bridge"
     title: "Steel Truss"
     excerpt: "Steel truss designed for research"
-  - image_path: /assets/img
-/micro1.jpeg
+  - image_path: /assets/img/micro1.jpeg
     title: "Micro fluidic Device"
     excerpt: "A Lab-on-Chip Microfluidic Particle Sorter"
 ---
