@@ -18,9 +18,10 @@ feature_row:
     alt: "Metal bridge"
     title: "Steel Truss"
     excerpt: "Steel truss designed for research"
-  - image_path: /assets/img/stroller prototype.pdf
-    title: "Medical Stroller Prototype"
-    excerpt: "Medical Stroller Prototype "
+  - image_path: /assets/img
+/micro1.jpeg
+    title: "Micro fluidic Device"
+    excerpt: "A Lab-on-Chip Microfluidic Particle Sorter"
 ---
 
 {% include feature_row %}
