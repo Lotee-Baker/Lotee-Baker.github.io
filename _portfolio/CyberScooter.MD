@@ -30,7 +30,7 @@ Once the Fusion 360 model was finished, it was put into Preform, a 3D slicing so
 ## 3. Parylene Coating of the Mold
 The 3D printed mold cannot be immediately cast with PDMS. First, you have to coat the mold in a thin layer of parylene. Parylene is a biocompatible polymer and is vapor deposited onto the mold in a vacuum chamber.
 
-![Microfluidic Mold](assets/img/micro1.jpeg)
+![Microfluidic Mold](assets/img/micro2.jpeg)
 
 ## 4. Cast PDMS
 Now that the mold is coated, it can now be casted in PDMS. PDMS is a common material for microfluidic devices because of its biocompatibility and its flexibility. It is mixed in a 10:1 ratio of base to curing agent and is degassed in a vacuum chamber to remove air bubbles. Once this is done, the PDMS is poured into the coated mold and baked at 60 degrees celsius for several hours to ensure a full cure. After the cast is fully cured it is peeled from the mold and is ready for the next step. 
@@ -40,7 +40,7 @@ The final step to create this LoC particle sorting device is to bond the PDMS mi
 
 To bond the two together, the PDMS cast and the glass slide are placed in a plasma chamber. In this chamber they are exposed to oxygen plasma that increases the surface energy of both materials. This makes them super adhesive and perfect for bonding. Then the PDMS cast and the glass slide are aligned and pressed together for a few minutes until they are strongly bonded together. After the glass slide and the PDMS cast are bonded the microfluidic Lab-on-Chip particle sorter is ready for use. 
 
-#Discussion 
+# Discussion 
 ## Why is the resin mold coated in Parylene? 
 Even after curing under UV light, the resin print has uncured resin monomers. If the PDMS is poured directly onto the resin print, then these monomers can leach into the PDMS and cause the PDMS to not cure correctly resulting in a loss of features or just a completely uncured cast. The Parylene coating prevents this leaching and enhances the overall surface smoothness allowing for an easier demolding process and more laminar flow in the microfluidic device. The Parylene also increases the durability of the mold allowing for multiple casts and a longer use. 
 
