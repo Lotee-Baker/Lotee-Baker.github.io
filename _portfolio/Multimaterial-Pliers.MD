@@ -23,5 +23,5 @@ A key feature of this design is the TPU center’s hollow "grid" structure, whic
 For the PLA handles and tips, I stuck with the slicer's default settings, as they provided the necessary strength and precision. The final result is a fully functional, print-in-place tool that can be printed on a multi-material 3D printer with no supports and is ready for immediate use.
 
 # The Results 
-!
+![Pliers GIF](/assets/img/download.gif)
 This project showcases the potential of multi-material 3D printing in creating real, working print-in-place parts—not just novelty trinkets. If you have access to a multi-material printer and want to try a true print-in-place functional tool, these pliers are a great example of what’s possible!
