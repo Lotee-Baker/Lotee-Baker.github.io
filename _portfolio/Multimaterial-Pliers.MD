@@ -24,4 +24,5 @@ For the PLA handles and tips, I stuck with the slicer's default settings, as the
 
 # The Results 
 ![Pliers GIF](/assets/img/download.gif)
+
 This project showcases the potential of multi-material 3D printing in creating real, working print-in-place parts—not just novelty trinkets. If you have access to a multi-material printer and want to try a true print-in-place functional tool, these pliers are a great example of what’s possible!
