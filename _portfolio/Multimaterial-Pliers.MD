@@ -11,13 +11,13 @@ gallery:
   - url: /assets/img/failed pliers.jpg
     image_path: /assets/img/failed pliers.jpg
     alt: "1st Iteration of Pliers: Dove Tails too small"
-- url: /assets/img/Thingaverse Pliers.jpg
+ - url: /assets/img/Thingaverse Pliers.jpg
     image_path: /assets/img/Thingaverse Pliers.jpg
     alt: "Pliers Example on Thingaverse"
-- url: /assets/img/Flexi Rex.jpg
+ - url: /assets/img/Flexi Rex.jpg
     image_path: /assets/img/Flexi Rex.jpg
     alt: "Flexi Rex"
-- url: /assets/img/slug.jpg
+ - url: /assets/img/slug.jpg
     image_path: /assets/img/slug.jpg
     alt: "Friendly Articulated Slug"
 ---
