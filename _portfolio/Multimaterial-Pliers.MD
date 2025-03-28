@@ -11,8 +11,16 @@ gallery:
   - url: /assets/img/failed pliers.jpg
     image_path: /assets/img/failed pliers.jpg
     alt: "1st Iteration of Pliers: Dove Tails too small"
+- url: /assets/img/Thingaverse Pliers.jpg
+    image_path: /assets/img/Thingaverse Pliers.jpg
+    alt: "Pliers Example on Thingaverse"
+- url: /assets/img/Flexi Rex.jpg
+    image_path: /assets/img/Flexi Rex.jpg
+    alt: "Flexi Rex"
+- url: /assets/img/slug.jpg
+    image_path: /assets/img/slug.jpg
+    alt: "Friendly Articulated Slug"
 ---
-
 # The Goal 
 The goal of this project was to design true print-in-place needle-nose pliers capable of picking up a single resistor at a time. Print-in-place parts are not commonly used in the market today for several reasons, but a true print-in-place design must meet specific criteria: it cannot require supports, and no modifications should be needed after printing. In other words, the pliers should be ready to use immediately after being removed from the print bed.
 While websites like Thingiverse feature a "print-in-place" section with designs like the "Flexi Rex" or "Friendly Articulated Slug," these aren't truly print-in-place. Their have weak connections that require breaking post-print to function properly. Similarly, most plier designs available online consist of multiple parts that need to be assembled, which disqualifies them from being true print-in-place parts.
