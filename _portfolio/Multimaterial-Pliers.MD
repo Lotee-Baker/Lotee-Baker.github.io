@@ -8,6 +8,9 @@ gallery:
   - url: /assets/img/Pliers.jpg
     image_path: /assets/img/Pliers.jpg
     alt: "placeholder image 1"
+  - url: /assets/img/failed pliers.jpg
+    image_path: /assets/img/failed pliers.jpg
+    alt: "1st Iteration of Pliers: Dove Tails too small"
 ---
 
 # The Goal 
