@@ -2,24 +2,18 @@
 title: "Phone Holder"
 excerpt: "Realiable, Low Profile, 3D Printed Phone Holder for a Bike or Scooter"
 header:
-  image: /assets/img/Pliers.jpg
-  teaser: /assets/img/Pliers.jpg
+  image: /assets/img/Mainphone.pdf
+  teaser: /assets/img/Mainphone.pdf
 gallery:
-  - url: /assets/img/Pliers.jpg
-    image_path: /assets/img/Pliers.jpg
-    alt: "placeholder image 1"
-  - url: /assets/img/failed pliers.jpg
-    image_path: /assets/img/failed pliers.jpg
-    alt: "1st Iteration of Pliers: Dove Tails too small"
-  - url: /assets/img/Thingaverse Pliers.jpg
-    image_path: /assets/img/Thingaverse Pliers.jpg
-    alt: "Pliers Example on Thingaverse"
-  - url: /assets/img/Flexi Rex.jpg
-    image_path: /assets/img/Flexi Rex.jpg
-    alt: "Flexi Rex"
-  - url: /assets/img/slug.jpg
-    image_path: /assets/img/slug.jpg
-    alt: "Friendly Articulated Slug"
+  - image_path: /assets/img/Mainphone.pdf
+  - image_path: /assets/img/BottomClamp.pdf
+  - image_path: /assets/img/holder render.pdf
+  - image_path: /assets/img/holder.pdf
+  - image_path: /assets/img/Phone1.pdf
+  - image_path: /assets/img/Phone2.pdf
+  - image_path: /assets/img/Phone3.pdf
+  - image_path: /assets/img/Top Clamp.pdf
+  - image_path: /assets/img/TPUBand.pdf
 ---
 # The Goal 
 The goal of this design was to create a low profile phone holder that can affix to the handlebars of a bike or scooter and easily rotate between landscape and portrait mode. Like any good phone holder you should be able to quickly attach and detach your phone on the go and the phone should have no risk of falling out on a bumpy ride. 
