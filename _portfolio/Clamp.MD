@@ -40,6 +40,6 @@ To attach the clamp to the handle bars, both sides were put together around the 
 
 The result of this project was a minimal but secure phone holder that was attached to a bike handle bar with a diameter of 25.4 mm. The holder easily rotated between landscape and portrait mode and the TPU band was perfect for securing the phone and allowing it to be removed easily. 
 
-![Render](/assets/img/holder render.jpg)
+![Render](/assets/img/holderRender.jpg)
 
 {% include gallery caption="Phone Holder" %}
