@@ -14,6 +14,9 @@ gallery:
   - image_path: /assets/img/Phone3.pdf
   - image_path: /assets/img/Top Clamp.pdf
   - image_path: /assets/img/TPUBand.pdf
+  - url: /assets/img/Pliers.jpg
+    image_path: /assets/img/Pliers.jpg
+    alt: "placeholder image 1"
 ---
 # The Goal 
 The goal of this design was to create a low profile phone holder that can affix to the handlebars of a bike or scooter and easily rotate between landscape and portrait mode. Like any good phone holder you should be able to quickly attach and detach your phone on the go and the phone should have no risk of falling out on a bumpy ride. 
