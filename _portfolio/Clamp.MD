@@ -36,8 +36,10 @@ I printed all of my components on FFF printers for their speed and their ability
 To attach the clamp to the handle bars, both sides were put together around the handlebar and bolted together with m6 bolts. Then the springs and balls were put into their notches on the top clamp. The TPU band was stretched around the bottom of the main phone holder body until it slipped into the notch in the neck of the holder.After this, the phone holder was pushed into the circular hole in the top part of the clamp compressing the springs between the top clamp and the phone holder. Then the phone holder and the top clamp were bolted together with a m6 bolt. It is important to note that this bolt wasn't tightened all the way so that the phone holder could still rotate around it. 
 
 # The Results 
-![Pliers GIF](/assets/img/Phone.gif)
+![Phone Holder GIF](/assets/img/Phone.gif)
 
 The result of this project was a minimal but secure phone holder that was attached to a bike handle bar with a diameter of 25.4 mm. The holder easily rotated between landscape and portrait mode and the TPU band was perfect for securing the phone and allowing it to be removed easily. 
+
+![Render](/assets/img/holder render.jpg)
 
 {% include gallery caption="Phone Holder" %}
