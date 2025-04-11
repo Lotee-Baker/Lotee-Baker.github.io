@@ -7,7 +7,6 @@ header:
 gallery:
   - image_path: /assets/img/Mainphone.jpg
   - image_path: /assets/img/BottomClamp.jpg
-  - image_path: /assets/img/holder render.jpg
   - image_path: /assets/img/holder.jpg
   - image_path: /assets/img/Phone1.jpg
   - image_path: /assets/img/Phone2.jpg
