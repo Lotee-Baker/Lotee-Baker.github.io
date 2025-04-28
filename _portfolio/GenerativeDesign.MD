@@ -44,6 +44,9 @@ My last load case was to account for an extreme case. I noticed that one of my c
 insert table 
 
 # Solving the Study and Printing
+
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4759310e3b5a58ee1?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
 In generative design you can also set the manufacturing method, safety factor, and material. I set the manufacturing method to unrestricted because I planned to SLS powder print this bookshelf. SLS is perfect for this application because it prints without supports, allowing for more complex geometries. The powder in the printer is Nylon 12 (with the Formlabs Fuse 1 3D Printer), so that is what I set the material to. I then set the safety factor to 1 because there is very little danger if the shelf fails and I really wanted to focus on minimizing mass. With everything now prepared for my generative design, I prompted Fusion to solve and waited for the results.
 
 # Results
