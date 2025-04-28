@@ -2,8 +2,8 @@
 title: "Fungal Bookshelf"
 excerpt: "Fungal Bookshelf Created With Generative Design"
 header:
-  image: /assets/img/Pliers.jpg
-  teaser: /assets/img/Pliers.jpg
+  image: /assets/img/Shelf1.png
+  teaser: /assets/img/Shelf1.png
 gallery:
   - url: /assets/img/C5.png
     image_path: /assets/img/C5.png
@@ -29,6 +29,18 @@ gallery:
   - url: /assets/img/OG2.png
     image_path: /assets/img/OG2.png
     alt: "Mushroom Obstical"
+  - url: /assets/img/Shelf1.png
+    image_path: /assets/img/Shelf1.png
+    alt: "Shelf Holding Books"
+  - url: /assets/img/Shelf2.png
+    image_path: /assets/img/Shelf2.png
+    alt: "Top View of Shelf"
+  - url: /assets/img/Shelf3.png
+    image_path: /assets/img/Shelf3.png
+    alt: "Side View of Shelf"
+  - url: /assets/img/Shelf5.png
+    image_path: /assets/img/Shelf5.png
+    alt: "Circle Lable"
 ---
 # The Idea
 My goal for this generative design part was to take advantage of the asymmetric, unconstrained, almost biological look of generative design and make a fungal-inspired bookshelf. The reason I chose a bookshelf for my project is that I have always had a love for books and, over the years, have amassed a collection that I do not have enough storage for. I could design this shelf with a more classical approach. Classic design in Fusion 360 is very helpful when designing everyday parts. With a multitude of different tools like sketch, extrude, fillet, etc., you can create things like everyday knick-knacks to useful components like a phone holder, which is also featured in my portfolio. This is amazing but also has some limitations. Because everything should be constrained in classic Fusion design so that the dimensions of the part are locked in place, classic Fusion design lends itself to simple, sharp geometries like rectangles, triangles, and circles. There are tools like spline that can create more flowing shapes and designs, but it is very hard to constrain and can, at times, be unruly and frustrating. Another limitation of classic Fusion design is that it is hard to understand how your part is going to react under certain forces, and this can lead to designing heavier, more massive parts than needed. Though it is not bad to have an extra strong part, this can be costly and time-consuming, as most additive manufacturing processes are bottlenecked by the volume of the parts they are printing. Also, with Nylon 12 for powder printing costing more than 100 dollars per kilogram, it can be very cost-effective to reduce the amount of material that your part uses. This is where generative design shines.
@@ -66,6 +78,8 @@ In generative design you can also set the manufacturing method, safety factor, a
 
 # Results
 The study resulted in one converged shelf with an estimated mass of 0.12 kg and an estimated volume of 118,281 mm³. I then took this design and converted it to a mesh. After converting it to a mesh, I repaired it and reduced it so that it could be converted to a body and exported as an STL file. I then printed the bookshelf on an SLS printer in Nylon 12, cleaned the part, and tested it. The shelf successfully held 8 books.
+
+![Shelf Holding 8 Books](/assets/img/Shelf4.png)
 
 I do enjoy the look of the bookshelf, but I do think there were some flaws in the generative design. It did not follow all of the obstacle geometries completely, covering most of the small mushroom clusters on the base plate. It also failed to directly convert to a body, which only gave me the option to convert it to a mesh. This is okay because I can then reduce the mesh and create a body from there, but it prevents me from using tools like smooth where I could’ve cleaned up some of the creases and holes in the shelf. Overall, I still think that generative design can be extremely useful in the prototyping phase of applications where you need to make something both lightweight and strong enough to serve a very specific purpose. I believe that it can give a lot of insight into where the most force will be applied and where your part needs to be the strongest, which can give you a good jumping-off point when trying to design a lightweight part. This can be very useful for the sports car industry as engineers are always trying to decrease the weight of their cars, which is an uphill battle because most cars undergo extremely large forces and need to be very robust.
 
