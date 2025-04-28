@@ -73,4 +73,6 @@ If I were to do this project again, I would test my first bookshelf and see at w
 
 Overall, I am still very happy with this bookshelf as I really believe it blends well with its fungal inspiration, and I am excited to have a new and unique shelf to display my favorite series.
 
+{% include gallery caption="Gallery: Includes: Iterations 5,10,20,30,35 and more " %}
+
 
