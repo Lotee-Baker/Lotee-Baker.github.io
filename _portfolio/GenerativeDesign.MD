@@ -37,11 +37,13 @@ After both the preserve and obstacle geometries were created, I then started to 
 
 For the first load case, I only accounted for the main goal, which is reliably holding 8 books. Fusion automatically applies the force of gravity as an applied load in the generative design workspace. The next applied load is the weight of the 8-book series. Setting the assumption that the average weight of a book is 1 kg, the shelf needs to withstand 8 kg of weight, which is 78.5 N of force with gravitational acceleration being 9.81 m/s². I defined this 78.5 N of force by breaking it up and applying 11 compression forces normal to the surfaces of the circles, proportional to their area. The next applied load I defined was a moment on the largest center circle to account for any torque created by off-center book placement. If 0.25 kg of the book's weight is offset by 0.5 mm, the moment created would be 1.22 N mm, which I rounded to 1.5 N mm. I applied this moment in two different directions and oriented them 90 degrees apart to hopefully cover all the possible moments that could be created by off-center book stacking.
 
+![Load Case 1](/assets/img/LC1.png)
+
 For the second and third load cases, I accounted for any shear force that could be created by the bookshelf being bumped from the side. This is very important to account for because I have a cat who likes to rub her head against all the objects in my dorm. I kept all the vertical forces of gravity and the weight of the 8 books from the last load case but I also added four 15 N loads on the 4 largest circles, excluding the center circle. All of these loads were horizontal and in different directions 90 degrees apart. The third load case had two of the horizontal forces opposing each other and the fourth had the other two forces opposing each other.
 
 My last load case was to account for an extreme case. I noticed that one of my corner support circles was particularly small and isolated compared to the rest. So I wanted to create a load case that accounted for potential stresses on that weak spot in that corner of the bookcase. I did this by applying a moment of 1 N mm on that isolated circle to force the generative design to give that circle more support. This load case also had all of the compression forces from the weight of the 8 books and the force of gravity.
 
-insert table 
+![Force Table](/assets/img/Force Table.png )
 
 # Solving the Study and Printing
 
