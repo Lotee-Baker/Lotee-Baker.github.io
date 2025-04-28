@@ -41,9 +41,13 @@ For the first load case, I only accounted for the main goal, which is reliably h
 
 For the second and third load cases, I accounted for any shear force that could be created by the bookshelf being bumped from the side. This is very important to account for because I have a cat who likes to rub her head against all the objects in my dorm. I kept all the vertical forces of gravity and the weight of the 8 books from the last load case but I also added four 15 N loads on the 4 largest circles, excluding the center circle. All of these loads were horizontal and in different directions 90 degrees apart. The third load case had two of the horizontal forces opposing each other and the fourth had the other two forces opposing each other.
 
+![Load Case 2](/assets/img/LC2.png) ![Load Case 3](/assets/img/LC3.png)
+
 My last load case was to account for an extreme case. I noticed that one of my corner support circles was particularly small and isolated compared to the rest. So I wanted to create a load case that accounted for potential stresses on that weak spot in that corner of the bookcase. I did this by applying a moment of 1 N mm on that isolated circle to force the generative design to give that circle more support. This load case also had all of the compression forces from the weight of the 8 books and the force of gravity.
 
-![Force Table](/assets/img/Force Table.png )
+![Load Case 4](/assets/img/LC4.png)
+
+![Force Table](/assets/img/Force.png)
 
 # Solving the Study and Printing
 
