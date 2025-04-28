@@ -5,21 +5,21 @@ header:
   image: /assets/img/Pliers.jpg
   teaser: /assets/img/Pliers.jpg
 gallery:
-  - url: /assets/img/Pliers.jpg
-    image_path: /assets/img/Pliers.jpg
-    alt: "placeholder image 1"
-  - url: /assets/img/failed pliers.jpg
-    image_path: /assets/img/failed pliers.jpg
-    alt: "1st Iteration of Pliers: Dove Tails too small"
-  - url: /assets/img/Thingaverse Pliers.jpg
-    image_path: /assets/img/Thingaverse Pliers.jpg
-    alt: "Pliers Example on Thingaverse"
-  - url: /assets/img/Flexi Rex.jpg
-    image_path: /assets/img/Flexi Rex.jpg
-    alt: "Flexi Rex"
-  - url: /assets/img/slug.jpg
-    image_path: /assets/img/slug.jpg
-    alt: "Friendly Articulated Slug"
+  - url: /assets/img/C5.png
+    image_path: /assets/img/C5.png
+    alt: "Iteration 35"
+  - url: /assets/img/C10.png
+    image_path: /assets/img/C10.png
+    alt: "Iteration 30"
+  - url: /assets/img/C20.png
+    image_path: /assets/img/C20.png
+    alt: "Iteration 20"
+  - url: /assets/img/C30.png
+    image_path: /assets/img/C30.png
+    alt: "Iteration 10"
+  - url: /assets/img/C35.png
+    image_path: /assets/img/C35.png
+    alt: "Iteration 5"
 ---
 # The Idea
 My goal for this generative design part was to take advantage of the asymmetric, unconstrained, almost biological look of generative design and make a fungal-inspired bookshelf. The reason I chose a bookshelf for my project is that I have always had a love for books and, over the years, have amassed a collection that I do not have enough storage for. I could design this shelf with a more classical approach. Classic design in Fusion 360 is very helpful when designing everyday parts. With a multitude of different tools like sketch, extrude, fillet, etc., you can create things like everyday knick-knacks to useful components like a phone holder, which is also featured in my portfolio. This is amazing but also has some limitations. Because everything should be constrained in classic Fusion design so that the dimensions of the part are locked in place, classic Fusion design lends itself to simple, sharp geometries like rectangles, triangles, and circles. There are tools like spline that can create more flowing shapes and designs, but it is very hard to constrain and can, at times, be unruly and frustrating. Another limitation of classic Fusion design is that it is hard to understand how your part is going to react under certain forces, and this can lead to designing heavier, more massive parts than needed. Though it is not bad to have an extra strong part, this can be costly and time-consuming, as most additive manufacturing processes are bottlenecked by the volume of the parts they are printing. Also, with Nylon 12 for powder printing costing more than 100 dollars per kilogram, it can be very cost-effective to reduce the amount of material that your part uses. This is where generative design shines.
