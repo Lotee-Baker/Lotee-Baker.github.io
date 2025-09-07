@@ -14,6 +14,9 @@ gallery:
   - url: /assets/img/Zombie3.jpeg
     image_path: /assets/img/Zombie3.jpeg
     alt: "Design Drawing"
+  - url: /assets/img/Zombie4.gif
+    image_path: /assets/img/Zombie4.gif
+    alt: "Final Gif"
 ---
 # Interactive Zombie Head Animatronic Installation
 
@@ -52,7 +55,7 @@ I designed and installed an **interactive zombie head animatronic** as a themed 
 - Maintained clear communication with arena management, aligning technical choices with storytelling goals.  
 - Delivered a solution that balanced creative ambition with operational reliability.  
 
-![Final Result](/assets/img/Zombie1.jpeg)
+![Final Result](/assets/img/Zombie4.gif)
 ---
 
 ## Key Skills Demonstrated
