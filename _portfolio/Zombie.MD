@@ -8,10 +8,10 @@ gallery:
   - url: /assets/img/Zombie1.jpeg
     image_path: /assets/img/Zombie1.jpeg
     alt: "Final Result"
-- url: /assets/img/Zombie2.jpeg
+  - url: /assets/img/Zombie2.jpeg
     image_path: /assets/img/Zombie2.jpeg
     alt: "Arduino Code"
-- url: /assets/img/Zombie3.jpeg
+  - url: /assets/img/Zombie3.jpeg
     image_path: /assets/img/Zombie3.jpeg
     alt: "Design Drawing"
 ---
