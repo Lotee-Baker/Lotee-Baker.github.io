@@ -7,7 +7,13 @@ header:
 gallery:
   - url: /assets/img/Zombie1.jpeg
     image_path: /assets/img/Zombie1.jpeg
-    alt: "placeholder image 1"
+    alt: "Final Result"
+- url: /assets/img/Zombie2.jpeg
+    image_path: /assets/img/Zombie2.jpeg
+    alt: "Arduino Code"
+- url: /assets/img/Zombie3.jpeg
+    image_path: /assets/img/Zombie3.jpeg
+    alt: "Design Drawing"
 ---
 # Interactive Zombie Head Animatronic Installation
 
@@ -28,6 +34,18 @@ I designed and installed an **interactive zombie head animatronic** as a themed 
 - **Animatronic Engineering:** Integrated a **pneumatic actuator, air compressor, and solenoid** system, controlled with an **Arduino Uno** for responsive motion.  
 
 ---
+## Materials Used
+- **2 gallon Limodot Portable Air Compressor (ultra quiet)**
+- **1/4-inch NPT Male Connector Adaptor**
+- **Tailonz Pneumatic Blue 1/4 Inch Air Tubing**
+- **Tailonz Pneumatic 1/4th NPT Solenoid Valve**
+- **Tailonz Pneumatic Female 1/4 Connector Adaptor**
+- **Arduino Uno REV3**
+- **Breadboard jumper wires**
+- **12V power supply**
+- **Power cord**
+- **Zombie Head (animatronic target)**
+- **Laser Reciever 
 
 ## Installation & Execution
 - Completed the project **5% under budget** and on schedule.  
