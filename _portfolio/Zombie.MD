@@ -32,7 +32,7 @@ I designed and installed an **interactive zombie head animatronic** as a themed 
 - **Concept:** Translated the client’s vision into an engaging gameplay element within strict size and budget constraints.  
 - **Structural Reinforcement:** Strengthened the tank’s supports to handle repeated guest interactions.  
 - **Animatronic Engineering:** Integrated a **pneumatic actuator, air compressor, and solenoid** system, controlled with an **Arduino Uno** for responsive motion.  
-
+![Zombie Design](/assets/img/Zombie3.jpeg)
 ---
 ## Materials Used
 - **2 gallon Limodot Portable Air Compressor (ultra quiet)**
@@ -48,10 +48,11 @@ I designed and installed an **interactive zombie head animatronic** as a themed 
 - **Laser Reciever 
 
 ## Installation & Execution
-- Completed the project **5% under budget** and on schedule.  
+- Completed the project for less than 600 dollars, 40% under budget.   
 - Maintained clear communication with arena management, aligning technical choices with storytelling goals.  
 - Delivered a solution that balanced creative ambition with operational reliability.  
 
+![Final Result](/assets/img/Zombie1.jpeg)
 ---
 
 ## Key Skills Demonstrated
