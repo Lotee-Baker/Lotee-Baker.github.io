@@ -47,8 +47,24 @@ The system detects intruders with a laser grid, slams a servo-powered door shut 
 - **Alarm & Display:** A buzzer screamed when the system was triggered, and the 20x4 LCD scrolled “ALARM TRIGGERED” across the screen. I had to learn how to use a new Arduino library to pull this off.
 - **Enclosures:** I modeled housings in Fusion 360 for the display box and alarm box, laser-cut the pieces in 1/4th" MDF, and wrapped them in black fabric to give the final project a polished, showcase-ready look.
 
+---
+
+## Materials Used
+- **Arduino Uno**
+- **3 Laser Emitters and Receivers**
+- **Servo Motor (door mechanism)**
+- **Buzzer (alarm sound)**
+- **20x4 I2C LCD Screen**
+- **9V Batteries (separate power for servo and LCD)**
+- **Breadboards and Jumper Wires**
+- **Laser-cut Enclosures (Fusion 360 design)**
+- **3D-printed Display Object (*Barry the Red*)**
+- **Black Fabric (for polished presentation finish)**
 
 ---
+
+## Arduino Code 
+
 
 
 ## What I Learned
@@ -56,9 +72,7 @@ The system detects intruders with a laser grid, slams a servo-powered door shut 
 - Debugging is everything — aligning those laser beams was more finicky than I expected.
 - Integrating electronics, mechanics, and software is messy, but also incredibly rewarding.
 
-
 ---
-
 
 ## Skills Demonstrated
 - Arduino programming (servo control, LCD libraries, sensor logic)
