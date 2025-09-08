@@ -2,18 +2,20 @@
 title: "Minature Laser Alarm System"
 excerpt: "A minture art room with a laser alarm system to protect Barry the Red Dinosour"
 header:
-  image: /assets/img/Mainphone.jpg
-  teaser: /assets/img/Mainphone.jpg
+  image: /assets/img/Laser8.jpeg
+  teaser: /assets/img/Laser8.jpeg
 gallery:
-  - image_path: /assets/img/Mainphone.jpg
-  - image_path: /assets/img/BottomClamp.jpg
-  - image_path: /assets/img/holder.jpg
-  - image_path: /assets/img/Phone1.jpg
-  - image_path: /assets/img/Phone2.jpg
-  - image_path: /assets/img/Phone3.jpg
-  - image_path: /assets/img/Top Clamp.jpg
-  - image_path: /assets/img/TPUBand.jpg
-  - image_path: /assets/img/Section.jpg
+  - image_path: /assets/img/Laser1.jpeg
+  - image_path: /assets/img/Laser2.jpeg
+  - image_path: /assets/img/Laser3.jpeg
+  - image_path: /assets/img/Laser4.jpeg
+  - image_path: /assets/img/Laser5.jpeg
+  - image_path: /assets/img/Laser6.jpeg
+  - image_path: /assets/img/Laser7.jpeg
+  - image_path: /assets/img/Laser8.jpeg
+  - image_path: /assets/img/Laser9.jpeg
+  - image_path: /assets/img/Laser10.jpeg
+  - image_path: /assets/img/Laser11.jpeg
 ---
 
 
@@ -29,7 +31,7 @@ gallery:
 
 
 ## Project Overview
-For my mechatronics final, I wanted to create something that felt straight out of *Mission Impossible*. The result? A **laser alarm system** that guarded my 3D-printed dinosaur (*Barry the Red*) like it was sitting in a high-security museum display.
+For my mechatronics final, I wanted to create something that felt straight out of *Mission Impossible*. The result? A **laser alarm system** that guarded my 3D-printed dinosaur (*Barry*) like it was sitting in a high-security museum display.
 
 
 The system detects intruders with a laser grid, slams a servo-powered door shut to protect the object, blares an alarm, and flashes a scrolling warning on an LCD screen. After a one-minute “lockdown,” the system resets itself and gets ready for the next daring thief.
