@@ -33,6 +33,7 @@ gallery:
 ## Project Overview
 For my mechatronics final, I wanted to create something that felt straight out of *Mission Impossible*. The result? A **laser alarm system** that guarded my 3D-printed dinosaur (*Barry*) like it was sitting in a high-security museum display.
 
+![Barry the Red Dinosaur](/assets/img/Laser1.jpeg)
 
 The system detects intruders with a laser grid, slams a servo-powered door shut to protect the object, blares an alarm, and flashes a scrolling warning on an LCD screen. After a one-minute “lockdown,” the system resets itself and gets ready for the next daring thief.
 
@@ -41,10 +42,10 @@ The system detects intruders with a laser grid, slams a servo-powered door shut 
 
 
 ## Design & Development
-- **Laser Grid:** I started ambitious—eight lasers! But after realizing my Arduino couldn’t handle that many inputs and power demands, I scaled back to three. It still gave that “heist movie” effect while staying reliable.
-- **Protective Door:** Using a servo motor, I built a lightweight door that snapped shut whenever the laser beams were broken. I powered it with its own 9V battery so it wouldn’t overload the Arduino.
+- **Laser Grid:** I started ambitious at an eight laser design but quickly realized my Arduino couldn’t handle that many inputs and power demands so I scaled back to three. It still gave that “heist movie” effect while staying reliable.
+- **Protective Door:** I built a lightweight door out of cardboard and attatched it to a servo motor. This servo motor snapped shut whenever the laser beams were broken. I powered it with its own 9V battery so it wouldn’t overload the Arduino.
 - **Alarm & Display:** A buzzer screamed when the system was triggered, and the 20x4 LCD scrolled “ALARM TRIGGERED” across the screen. I had to learn how to use a new Arduino library to pull this off.
-- **Enclosures:** I modeled housings in Fusion 360 for the display box and alarm box, laser-cut the pieces, and wrapped them in black fabric to give the final project a polished, showcase-ready look.
+- **Enclosures:** I modeled housings in Fusion 360 for the display box and alarm box, laser-cut the pieces in 1/4th" MDF, and wrapped them in black fabric to give the final project a polished, showcase-ready look.
 
 
 ---
