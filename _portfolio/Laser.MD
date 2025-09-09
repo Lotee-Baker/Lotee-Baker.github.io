@@ -33,7 +33,9 @@ gallery:
 ## Project Overview
 For my mechatronics final, I wanted to create something that felt straight out of *Mission Impossible*. The result? A **laser alarm system** that guarded my extreemly valuable 3D-printed dinosaur (*Barry*) like it was sitting in a high-security museum display.
 
-![Barry the Red Dinosaur](/assets/img/Laser1.jpeg)
+<p align="center">
+  <img src="/assets/img/Laser1.jpeg" alt="Barry the Red Dinosaur" style="max-width:70%;">
+</p>
 
 The system detects intruders with a laser grid, slams a servo-powered door shut to protect the object, blares an alarm, and flashes a scrolling warning on an LCD screen. After a one-minute “lockdown,” the system resets itself and gets ready for the next daring thief.
 
