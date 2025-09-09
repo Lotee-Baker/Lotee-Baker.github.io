@@ -2,10 +2,13 @@
 title: "Syringe Pump"
 excerpt: "DIY syringe pump capable of 1 ul / min flow rate up to 10 mL / min"
 header:
-  image: /assets/img/Syringe 2.pdf
-  teaser: /assets/img/Syringe 2.pdf
+  image: /assets/img/Syringe1.jpeg
+  teaser: /assets/img/Syringe1.jpeg
 gallery:
-  - image_path: /assets/img/Syringe 2.pdf
+  - image_path: /assets/img/Syringe1.jpeg
+  - image_path: /assets/img/Syringe2.jpeg
+  - image_path: /assets/img/Syringe3.jpeg
+  - image_path: /assets/img/Syringe4.jpeg
  
    
 ---
