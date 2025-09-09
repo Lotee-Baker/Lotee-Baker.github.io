@@ -64,9 +64,13 @@ The system detects intruders with a laser grid, slams a servo-powered door shut 
 ---
 
 ## Arduino Code 
-![Arduino Code Page 1](/assets/img/Laser12.jpeg) ![Arduino Code Page 2](/assets/img/Laser13.jpeg) 
-![Arduino Code Page 3](/assets/img/Laser14.jpeg) ![Arduino Code Page 4](/assets/img/Laser15.jpeg)
 
+<p class="image-grid">
+  <img src="/assets/img/Laser12.jpeg" alt="Arduino Code Page 1" />
+  <img src="/assets/img/Laser13.jpeg" alt="Arduino Code Page 2" />
+  <img src="/assets/img/Laser14.jpeg" alt="Arduino Code Page 3" />
+  <img src="/assets/img/Laser15.jpeg" alt="Arduino Code Page 4" />
+</p>
 
 ## What I Learned
 - Sometimes you have to **scale back big ideas** (eight lasers!) to get something working reliably.
