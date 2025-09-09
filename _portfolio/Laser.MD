@@ -1,5 +1,5 @@
 ---
-title: "Minature Laser Alarm System"
+title: "Escape Room Laser Alarm System"
 excerpt: "A minture art room with a laser alarm system to protect Barry the Red Dinosour"
 header:
   image: /assets/img/Laser8.jpeg
@@ -24,14 +24,14 @@ gallery:
 
 **Course Project:** Mechatronics Final Project
 **Role:** Designer & Builder
-**Timeline:** Semester Project
+**Timeline:** Semester Project, Spring 2025
 
 
 ---
 
 
 ## Project Overview
-For my mechatronics final, I wanted to create something that felt straight out of *Mission Impossible*. The result? A **laser alarm system** that guarded my 3D-printed dinosaur (*Barry*) like it was sitting in a high-security museum display.
+For my mechatronics final, I wanted to create something that felt straight out of *Mission Impossible*. The result? A **laser alarm system** that guarded my extreemly valuable 3D-printed dinosaur (*Barry*) like it was sitting in a high-security museum display.
 
 ![Barry the Red Dinosaur](/assets/img/Laser1.jpeg)
 
@@ -63,15 +63,6 @@ The system detects intruders with a laser grid, slams a servo-powered door shut 
 
 ---
 
-## Arduino Code 
-
-<p class="image-grid">
-  <img src="/assets/img/Laser12.jpeg" alt="Arduino Code Page 1" />
-  <img src="/assets/img/Laser13.jpeg" alt="Arduino Code Page 2" />
-  <img src="/assets/img/Laser14.jpeg" alt="Arduino Code Page 3" />
-  <img src="/assets/img/Laser15.jpeg" alt="Arduino Code Page 4" />
-</p>
-
 ## What I Learned
 - Sometimes you have to **scale back big ideas** (eight lasers!) to get something working reliably.
 - Debugging is everything — aligning those laser beams was more finicky than I expected.
@@ -92,7 +83,6 @@ The system detects intruders with a laser grid, slams a servo-powered door shut 
 ## Results
 The final build worked exactly as planned: Barry stayed safe, the alarm looked and sounded dramatic, and the system could reset and run multiple times. It was easily one of the most fun projects I’ve worked on because it combined **engineering with storytelling** — something I’m passionate about carrying into my future projects in mechanical and themed entertainment design.
 
-
 ---
 
 <style>
@@ -112,4 +102,15 @@ blockquote { border-left: 4px solid #7a8899; padding-left: 12px; color: #495268;
 
 ---
 
-{% include gallery caption="Phone Holder" %}
+{% include gallery caption="Laser Alarm System" %}
+
+---
+
+## Arduino Code 
+
+<p class="image-grid">
+  <img src="/assets/img/Laser12.jpeg" alt="Arduino Code Page 1" />
+  <img src="/assets/img/Laser13.jpeg" alt="Arduino Code Page 2" />
+  <img src="/assets/img/Laser14.jpeg" alt="Arduino Code Page 3" />
+  <img src="/assets/img/Laser15.jpeg" alt="Arduino Code Page 4" />
+</p>
