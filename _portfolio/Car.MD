@@ -22,68 +22,97 @@ gallery:
     alt: "Final Gif"
     title: "Zombie head in motion"
 ---
-# Interactive Zombie Head Animatronic Installation
+# ME 2160 Final Project – Spirit Car
 
-**Client:** Flag Tag AZ, Flagstaff, AZ  
-**Role:** Independent Contractor  
-**Timeline:** May 2024 – August 2024  
+**Course:** ME 2160  
+**Team:** Lotee Baker & Sebastien Jacques  
+**Timeline:** Fall 2024  
 
 ---
 
 ## Project Overview
-I designed and installed an **interactive zombie head animatronic** as a themed target in a Flag Tag's laser tag arena. The goal was to create an **immersive, durable, and budget-conscious** feature that elevated the guest experience.
+For our ME 2160 final project, our team set out to design and build a small gear-driven car that could **travel 10 feet unassisted** while also embodying Vanderbilt school spirit. Using a provided hardware kit, laser-cut plywood, and 3D-printed components, we developed a car that not only met the performance requirements but also won the **“Most School Spirit” award** among our peers.
 
 ---
 
-## Design & Development
-- **Concept:** A zombie head that will pop out of a tank in the areana for randomly timed intervals. This zombie head will have a laser sensor in its mouth so that players can shoot at it to gain points in the game.    
-- **Structural Reinforcement:** To do this I first needed to reinforce the tank’s supports to handle the new animatronic infastructure.   
-- **Animatronic Engineering:** Integrated a **pneumatic actuator, air compressor, and solenoid** system, controlled with an **Arduino Uno** for responsive motion.  
-![Zombie Design](/assets/img/Zombie3.jpeg)
-
----
-## Materials Used
-- **2 gallon Limodot Portable Air Compressor (ultra quiet)**
-- **1/4-inch NPT Male Connector Adaptor**
-- **Tailonz Pneumatic Blue 1/4 Inch Air Tubing**
-- **Tailonz Pneumatic 1/4th NPT Solenoid Valve**
-- **Tailonz Pneumatic Female 1/4 Connector Adaptor**
-- **Arduino Uno REV3**
-- **Breadboard jumper wires**
-- **12V power supply**
-- **Power cord**
-- **Zombie Head (animatronic target)**
-- **Laser Reciever**
-
-## Installation & Execution
-- Completed the project for less than 600 dollars, 40% under budget.   
-- Maintained clear communication with arena management, aligning technical choices with storytelling goals.  
-- Delivered a solution that balanced creative ambition with operational reliability.  
-
-![Final Result](/assets/img/Zombie4.gif)
----
-
-## Key Skills Demonstrated
-- Entertainment Engineering Design  
-- Pneumatics & Mechanical Integration  
-- Show Control (Arduino-based interactivity)  
-- Project Management & Client Communication  
+## Design Goals
+- Car must travel at least **10 feet** reliably.  
+- Fit within an **8” × 8” × 8”** dimension box.  
+- Use provided kit parts for motors, batteries, and gears.  
+- Maintain a gear ratio of at least **3:1**.  
+- Reflect **Vanderbilt pride** with decorative elements.  
 
 ---
 
-## Impact
-The animatronic quickly became a **signature attraction feature**, boosting player engagement and enhancing the arena’s overall entertainment value.  
-This project also expanded my expertise in **hands-on entertainment technology** and strengthened my ability to deliver immersive, guest-focused experiences.  
-
+## Design and Engineering
+- **Gear Train:** We chose a 10:55 gear ratio, maximizing torque and allowing the car to pull more weight. Four motors powered an all-wheel-drive configuration.  
+- **Prototyping:** Our first chassis was laser cut from ⅛” plywood. Early testing revealed design flaws: misaligned axles, gears rubbing on the ground, and limited clearance.  
+- **Iteration:** We redesigned the chassis in **SolidWorks**, adjusted axle spacing, and added larger TPU 3D-printed wheels to improve traction. Doubling tire width further increased grip.  
+- **Aesthetics:** The car body was painted as a football field with **“Shock the World”** written on the side. A 3D-printed Diego Pavia stomped on Alabama’s elephant mascot while the car dragged a golden goalpost.  
 
 ---
+
+## Bill of Materials
+
+| Component                       | Specification                | Purpose |
+|---------------------------------|------------------------------|---------|
+| **Motors (×4)**                 | Provided kit motors          | Powered all-wheel drive |
+| **Batteries**                   | 9V (from kit)                | Supplied power to motors |
+| **Gears**                       | 10:55 ratio (kit)            | Increased torque for traction |
+| **Chassis**                     | Laser-cut ⅛” plywood         | Structural base for drivetrain |
+| **Wheels**                      | 3D-printed TPU, wide tires   | Improved traction and stability |
+| **Fasteners & Adhesives**       | Screws, glue                 | Assembly and reinforcement |
+| **Decorations**                 | Paint, 3D-printed figures, goalpost | Vanderbilt school spirit aesthetic |
+
+---
+
+## Results
+- The car **successfully traversed 10 feet**, meeting the performance requirement.  
+- While it didn’t win the tractor pull, it showcased reliable operation and strong torque.  
+- Earned the **“Most School Spirit” award**, voted by classmates.  
+- Proved both functional and creative, merging engineering with storytelling.  
+
+---
+
+## Skills Highlighted
+- SolidWorks CAD (modeling, assemblies, renderings)  
+- Gear ratio analysis and drivetrain design  
+- Laser cutting and rapid prototyping  
+- 3D printing for functional parts (tires, decorative pieces)  
+- Team collaboration and project management  
+
+---
+
+## Reflection
+This project taught us the value of **iterative prototyping**: our first design failed due to gear clearance issues, but redesigning quickly led to a successful outcome. We also gained experience balancing **technical performance** with **creative presentation**, learning that engineering can both **solve problems and tell stories**.
+
+---
+
+## Gallery
+<p class="image-grid">
+  <figure>
+    <img src="/assets/images/spirit-car/prototype.jpg" alt="Prototype Car" />
+    <figcaption>First plywood chassis prototype</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/images/spirit-car/final-car.jpg" alt="Final Spirit Car" />
+    <figcaption>Final decorated car</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/images/spirit-car/gear-train.jpg" alt="Gear Train Design" />
+    <figcaption>SolidWorks gear train design</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/images/spirit-car/decorated.jpg" alt="Decorated Car with Goalpost" />
+    <figcaption>Car with goalpost and school spirit theme</figcaption>
+  </figure>
+</p>
 
 <style>
 .image-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   gap: 12px;
-  align-items: start;
 }
 .image-grid figure {
   margin: 0;
@@ -92,36 +121,13 @@ This project also expanded my expertise in **hands-on entertainment technology**
 .image-grid img {
   width: 100%;
   height: auto;
-  border-radius: 8px;
-  display: block;
+  border-radius: 10px;
 }
 .image-grid figcaption {
   font-size: 0.9rem;
   color: #555;
-  margin-top: 8px;
+  margin-top: 6px;
 }
 </style>
 
 ---
-
-<div class="image-grid">
-  <figure>
-    <img src="/assets/img/Zombie1.jpeg" alt="Final Result">
-    <figcaption>Final installation of the animatronic</figcaption>
-  </figure>
-
-  <figure>
-    <img src="/assets/img/Zombie2.jpeg" alt="Arduino Code">
-    <figcaption>Arduino wiring and control</figcaption>
-  </figure>
-
-  <figure>
-    <img src="/assets/img/Zombie3.jpeg" alt="Design Drawing">
-    <figcaption>Design drawing and measurements</figcaption>
-  </figure>
-
-  <figure>
-    <img src="/assets/img/Zombie4.gif" alt="Final Gif">
-    <figcaption>Zombie head in motion (GIF)</figcaption>
-  </figure>
-</div>
