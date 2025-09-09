@@ -75,9 +75,6 @@ I designed and installed an **interactive zombie head animatronic** as a themed 
 The animatronic quickly became a **signature attraction feature**, boosting player engagement and enhancing the arena’s overall entertainment value.  
 This project also expanded my expertise in **hands-on entertainment technology** and strengthened my ability to deliver immersive, guest-focused experiences.  
 
----
-
-{% include gallery caption="Zombie Animatronic installation at Flag Tag AZ" %}
 
 ---
 
