@@ -2,21 +2,27 @@
 title: "Shoe Drop"
 excerpt: "As part of TOM (Tikkun Olam Makers), our team developed an innovative gait training device for patients at the Pi Beta Phi Clinic. "
 header:
-  image: /assets/img/Zombie1.jpeg
-  teaser: /assets/img/Zombie1.jpeg
+  image: /assets/img/Shoe1.jpeg
+  teaser: /assets/img/Shoe1.jpeg
 gallery:
-  - url: /assets/img/Zombie1.jpeg
-    image_path: /assets/img/Zombie1.jpeg
+  - url: /assets/img/Shoe1.jpeg
+    image_path: /assets/img/Shoe1.jpeg
     alt: "Final Result"
-  - url: /assets/img/Zombie2.jpeg
-    image_path: /assets/img/Zombie2.jpeg
-    alt: "Arduino Code"
-  - url: /assets/img/Zombie3.jpeg
-    image_path: /assets/img/Zombie3.jpeg
-    alt: "Design Drawing"
-  - url: /assets/img/Zombie4.gif
-    image_path: /assets/img/Zombie4.gif
-    alt: "Final Gif"
+  - url: /assets/img/Shoe2.jpeg
+    image_path: /assets/img/Shoe2.jpeg
+    alt: "Group Photo"
+  - url: /assets/img/Shoe3.jpeg
+    image_path: /assets/img/Shoe3.jpeg
+    alt: "Step 1"
+  - url: /assets/img/Shoe4.gif
+    image_path: /assets/img/Shoe4.gif
+    alt: "Step 2"
+ - url: /assets/img/Shoe5.gif
+    image_path: /assets/img/Shoe5.gif
+    alt: "Initial Brainstorm 1"
+ - url: /assets/img/Shoe6.gif
+    image_path: /assets/img/Shoe6.gif
+    alt: "Initial Brainstorm 2"
 ---
 # Gait Training Device for Physical Therapy (Shoe Drop)
 
