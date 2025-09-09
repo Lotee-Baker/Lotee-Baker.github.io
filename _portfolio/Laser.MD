@@ -23,7 +23,9 @@ gallery:
 
 
 **Course Project:** Mechatronics Final Project
+
 **Role:** Designer & Builder
+
 **Timeline:** Semester Project, Spring 2025
 
 
@@ -45,8 +47,8 @@ The system detects intruders with a laser grid, slams a servo-powered door shut 
 
 ## Design & Development
 - **Laser Grid:** I started ambitious at an eight laser design but quickly realized my Arduino couldn’t handle that many inputs and power demands so I scaled back to three. It still gave that “heist movie” effect while staying reliable.
-- **Protective Door:** I built a lightweight door out of cardboard and attatched it to a servo motor. This servo motor snapped shut whenever the laser beams were broken. I powered it with its own 9V battery so it wouldn’t overload the Arduino.
-- **Alarm & Display:** A buzzer screamed when the system was triggered, and the 20x4 LCD scrolled “ALARM TRIGGERED” across the screen. I had to learn how to use a new Arduino library to pull this off.
+- **Protective Door:** I built a lightweight door out of cardboard and attatched it to a servo motor. This servo motor snapped shut whenever the laser beams were broken. I powered the servo motor with its own 9V battery to avoid overloading the Arduino.
+- **Alarm & Display:** When the alarm is triggered a buzzer sets off detering the thief, and the 20x4 LCD scrolles “ALARM TRIGGERED” across the screen. 
 
 <p align="center">
   <img src="/assets/img/Laser.gif" alt="Alarm System" style="max-width:70%;">
@@ -56,6 +58,10 @@ The system detects intruders with a laser grid, slams a servo-powered door shut 
 
 ## CAD Design 
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH286ddQT78850c0d8a4e4c61248e31bc56f?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
+<p align="center">
+  <img src="/assets/img/Laser9.jpeg" alt="Barry the Red Dinosaur" style="max-width:70%;">
+</p>
 ---
 
 ## Materials Used
@@ -67,7 +73,7 @@ The system detects intruders with a laser grid, slams a servo-powered door shut 
 - **9V Batteries (separate power for servo and LCD)**
 - **Breadboards and Jumper Wires**
 - **Laser-cut Enclosures (Fusion 360 design)**
-- **3D-printed Display Object (*Barry the Red*)**
+- **3D-printed Display Object (*Barry the Red Dinosaur*)**
 - **Black Fabric (for polished presentation finish)**
 
 ---
@@ -79,7 +85,7 @@ The system detects intruders with a laser grid, slams a servo-powered door shut 
 
 ---
 
-## Skills Demonstrated
+## Skills 
 - Arduino programming (servo control, LCD libraries, sensor logic)
 - CAD design and laser cutting (Fusion 360 + fabrication)
 - Prototyping & system integration
