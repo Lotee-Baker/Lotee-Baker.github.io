@@ -8,15 +8,19 @@ gallery:
   - url: /assets/img/Zombie1.jpeg
     image_path: /assets/img/Zombie1.jpeg
     alt: "Final Result"
+    title: "Final installation of the animatronic"
   - url: /assets/img/Zombie2.jpeg
     image_path: /assets/img/Zombie2.jpeg
     alt: "Arduino Code"
+    title: "Arduino Uno setup and wiring"
   - url: /assets/img/Zombie3.jpeg
     image_path: /assets/img/Zombie3.jpeg
     alt: "Design Drawing"
+    title: "Early concept drawing"
   - url: /assets/img/Zombie4.gif
     image_path: /assets/img/Zombie4.gif
     alt: "Final Gif"
+    title: "Zombie head in motion"
 ---
 # Interactive Zombie Head Animatronic Installation
 
