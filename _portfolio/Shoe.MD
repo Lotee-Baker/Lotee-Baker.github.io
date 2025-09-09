@@ -17,10 +17,10 @@ gallery:
   - url: /assets/img/Shoe4.gif
     image_path: /assets/img/Shoe4.gif
     alt: "Step 2"
- - url: /assets/img/Shoe5.gif
+  - url: /assets/img/Shoe5.gif
     image_path: /assets/img/Shoe5.gif
     alt: "Initial Brainstorm 1"
- - url: /assets/img/Shoe6.gif
+  - url: /assets/img/Shoe6.gif
     image_path: /assets/img/Shoe6.gif
     alt: "Initial Brainstorm 2"
 ---
