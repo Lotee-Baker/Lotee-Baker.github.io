@@ -1,6 +1,6 @@
 ---
-title: "Zombie Animatronic"
-excerpt: "A Zombie Animatronic Addition to Flag Tag AZ's laser tag arena"
+title: "School Spirit Car"
+excerpt: "A small, motorized, gear-driven car that won 1st in school spirit "
 header:
   image: /assets/img/Car1.jpeg
   teaser: /assets/img/Car1.jpeg
@@ -27,8 +27,8 @@ gallery:
     title: "Final Body Design"
   - url: /assets/img/Car6.jpeg
     image_path: /assets/img/Car6.jpeg
-    alt: "Final Bdy View Showing Enough Room for Gear"
-    title: "Final Bdy View Showing Enough Room for Gear"
+    alt: "Final Body View Showing Enough Room for Gear"
+    title: "Final Body View Showing Enough Room for Gear"
   - url: /assets/img/Car7.jpeg
     image_path: /assets/img/Car7.jpeg
     alt: "Final Result Render"
@@ -132,7 +132,7 @@ This project taught us the value of **iterative prototyping**: our first design 
     <figcaption>Final Body Design</figcaption>
   </figure>
   <figure>
-    <img src="/assets/img/Car6.jpeg" alt="Final Bdy View Showing Enough Room for Gear" />
+    <img src="/assets/img/Car6.jpeg" alt="Final Body View Showing Enough Room for Gear" />
     <figcaption>Final Bdy View Showing Enough Room for Gear</figcaption>
   </figure>
   <figure>
