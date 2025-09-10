@@ -14,7 +14,7 @@ feature_row:
     alt: "Zombie Animatronic"
     title: "Zombie Animatronic"
     excerpt: "A Custom Zombie Animatronic Addition to FlagTag AZ's laser tag arena "
-  - image_path: /assets/img/laser.jpeg
+  - image_path: /assets/img/Laser8.jpeg
     alt: "Escape Room Laser Alarm System"
     title: "Escape Room Laser Alarm System"
     excerpt: "A miniature art room with a laser alarm system"
