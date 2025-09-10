@@ -2,25 +2,46 @@
 title: "Zombie Animatronic"
 excerpt: "A Zombie Animatronic Addition to Flag Tag AZ's laser tag arena"
 header:
-  image: /assets/img/Zombie1.jpeg
-  teaser: /assets/img/Zombie1.jpeg
+  image: /assets/img/Car1.jpeg
+  teaser: /assets/img/Car1.jpeg
 gallery:
-  - url: /assets/img/Zombie1.jpeg
-    image_path: /assets/img/Zombie1.jpeg
+  - url: /assets/img/Car1.jpeg
+    image_path: /assets/img/Car1.jpeg
     alt: "Final Result"
-    title: "Final installation of the animatronic"
-  - url: /assets/img/Zombie2.jpeg
-    image_path: /assets/img/Zombie2.jpeg
-    alt: "Arduino Code"
-    title: "Arduino Uno setup and wiring"
-  - url: /assets/img/Zombie3.jpeg
-    image_path: /assets/img/Zombie3.jpeg
-    alt: "Design Drawing"
-    title: "Early concept drawing"
-  - url: /assets/img/Zombie4.gif
-    image_path: /assets/img/Zombie4.gif
-    alt: "Final Gif"
-    title: "Zombie head in motion"
+    title: "Final Result"
+  - url: /assets/img/Car2.jpeg
+    image_path: /assets/img/Car2.jpeg
+    alt: "Initial Gear Design"
+    title: "Initial Gear Design"
+  - url: /assets/img/Car3.jpeg
+    image_path: /assets/img/Car3.jpeg
+    alt: "First Body Design"
+    title: "First Body Design"
+  - url: /assets/img/Car4.jpeg
+    image_path: /assets/img/Car4.jpeg
+    alt: "First Body: Gear Hits Ground"
+    title: "First Body: Gear Hits Ground"
+  - url: /assets/img/Car5.jpeg
+    image_path: /assets/img/Car5.jpeg
+    alt: "Final Body Design"
+    title: "Final Body Design"
+  - url: /assets/img/Car6.jpeg
+    image_path: /assets/img/Car6.jpeg
+    alt: "Final Bdy View Showing Enough Room for Gear"
+    title: "Final Bdy View Showing Enough Room for Gear"
+  - url: /assets/img/Car7.jpeg
+    image_path: /assets/img/Car7.jpeg
+    alt: "Final Result Render"
+    title: "Final Result Render"
+  - url: /assets/img/Car8.jpeg
+    image_path: /assets/img/Car8.jpeg
+    alt: "Final Result Drawing"
+    title: "Final Result Drawing"
+  - url: /assets/img/Car9.jpeg
+    image_path: /assets/img/Car9.jpeg
+    alt: "Exploded View"
+    title: "Exploded View"
+
 ---
 # ME 2160 Final Project – Spirit Car
 
@@ -91,22 +112,43 @@ This project taught us the value of **iterative prototyping**: our first design 
 ## Gallery
 <p class="image-grid">
   <figure>
-    <img src="/assets/images/spirit-car/prototype.jpg" alt="Prototype Car" />
-    <figcaption>First plywood chassis prototype</figcaption>
+    <img src="/assets/img/Car1.jpeg" alt="Final Result" />
+    <figcaption>Final Result</figcaption>
   </figure>
   <figure>
-    <img src="/assets/images/spirit-car/final-car.jpg" alt="Final Spirit Car" />
-    <figcaption>Final decorated car</figcaption>
+    <img src="/assets/img/Car2.jpeg" alt="Initial Gear Design" />
+    <figcaption>Initial Gear Design</figcaption>
   </figure>
   <figure>
-    <img src="/assets/images/spirit-car/gear-train.jpg" alt="Gear Train Design" />
-    <figcaption>SolidWorks gear train design</figcaption>
+    <img src="/assets/img/Car3.jpeg" alt="First Body Design" />
+    <figcaption>First Body Design</figcaption>
   </figure>
   <figure>
-    <img src="/assets/images/spirit-car/decorated.jpg" alt="Decorated Car with Goalpost" />
-    <figcaption>Car with goalpost and school spirit theme</figcaption>
+    <img src="/assets/img/Car4.jpeg" alt="First Body: Gear Hits Ground" />
+    <figcaption>First Body: Gear Hits Ground</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/img/Car5.jpeg" alt="Final Body Design" />
+    <figcaption>Final Body Design</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/img/Car6.jpeg" alt="Final Bdy View Showing Enough Room for Gear" />
+    <figcaption>Final Bdy View Showing Enough Room for Gear</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/img/Car7.jpeg" alt="Final Result Render" />
+    <figcaption>Final Result Render</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/img/Car8.jpeg" alt="Final Result Drawing" />
+    <figcaption>Final Result Drawing</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/img/Car9.jpeg" alt="Exploded View" />
+    <figcaption>Exploded View</figcaption>
   </figure>
 </p>
+
 
 <style>
 .image-grid {
