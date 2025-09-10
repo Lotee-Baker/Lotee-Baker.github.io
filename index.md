@@ -10,17 +10,17 @@ header:
       url: "/portfolio/"
 excerpt: "Lotee Baker is an mechanical engineering student with a passion for entertainment engineering."
 feature_row:
-  - image_path: /assets/img/Syringe 2.pdf
-    alt: "Syringe Pump"
+  - image_path: /assets/img/Zombie1.jpeg
+    alt: "Zombie Animatronic"
+    title: "Zombie Animatronic"
+    excerpt: "A Custom Zombie Animatronic Addition to FlagTag AZ's laser tag arena "
+  - image_path: /assets/img/laser.jpeg
+    alt: "Escape Room Laser Alarm System"
+    title: "Escape Room Laser Alarm System"
+    excerpt: "A miniature art room with a laser alarm system"
+  - image_path: /assets/img/Syringe1.jpeg
     title: "Syringe Pump"
-    excerpt: "A DIT syringe pump capable of 1 uL / min flow rate up to 10 mL/min"
-  - image_path: /assets/img/IMG_6910.jpg
-    alt: "Metal bridge"
-    title: "Steel Truss"
-    excerpt: "Steel truss designed for research"
-  - image_path: /assets/img/micro1.jpeg
-    title: "Micro fluidic Device"
-    excerpt: "A Lab-on-Chip Microfluidic Particle Sorter"
+    excerpt: "A DIY syringe pump capable of 1 ul/min flow rate up to 10 ml/min"
 ---
 
 {% include feature_row %}
