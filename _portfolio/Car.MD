@@ -149,11 +149,10 @@ This project taught us the value of **iterative prototyping**: our first design 
   </figure>
 </p>
 
-
 <style>
 .image-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  grid-template-columns: repeat(3, 1fr); /* 3 per row */
   gap: 12px;
 }
 .image-grid figure {
