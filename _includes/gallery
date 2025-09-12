@@ -16,26 +16,20 @@
   {% endif %}
 {% endif %}
 
-<div class="gallery {{ gallery_layout }} {{ include.class }}">
+<figure class="{{ gallery_layout }} {{ include.class }}">
   {% for img in gallery %}
-    <figure>
-      {% if img.url %}
-        <a href="{{ img.url | relative_url }}">
+    {% if img.url %}
+      <a href="{{ img.url | relative_url }}"
+        {% if img.title %}title="{{ img.title }}"{% endif %}>
           <img src="{{ img.image_path | relative_url }}"
                alt="{% if img.alt %}{{ img.alt }}{% endif %}">
-        </a>
-      {% else %}
-        <img src="{{ img.image_path | relative_url }}"
-             alt="{% if img.alt %}{{ img.alt }}{% endif %}">
-      {% endif %}
-      {% if img.caption %}
-        <figcaption>{{ img.caption }}</figcaption>
-      {% endif %}
-    </figure>
+      </a>
+    {% else %}
+      <img src="{{ img.image_path | relative_url }}"
+           alt="{% if img.alt %}{{ img.alt }}{% endif %}">
+    {% endif %}
   {% endfor %}
   {% if include.caption %}
-    <figcaption class="gallery-caption">
-      {{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}
-    </figcaption>
+    <figcaption>{{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
   {% endif %}
-</div>
+</figure>
