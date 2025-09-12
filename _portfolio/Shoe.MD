@@ -81,3 +81,5 @@ By focusing on accessibility and simplicity, our team delivered a tool that enha
 This project not only strengthened my technical design skills, but also reinforced the value of **teamwork and empathy in engineering**. It reminded me that engineering solutions can directly improve the quality of life for others.
 
 ---
+
+{% include gallery caption="Shoe Drop Gallery" %}
