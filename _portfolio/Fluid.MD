@@ -7,7 +7,7 @@ header:
 gallery:
   - url: /assets/img/micro1.jpeg
     image_path: /assets/img/micro1.jpeg
-    alt: "placeholder image 1"
+    alt: "Final Device"
 ---
 # Introduction
 What is a Microfluidic Device? A microfluidic device is a device that can manipulate very small volumes of liquids on the microliter or even nanoliter scale. They’re usually made from materials like polydimethylsiloxane(PDMS) or thermoplastics. The benefit of these devices is that they allow precise control over fluid behavior without using a large amount of expensive resources like other fluidic devices. This makes them perfect for applications in biomedical diagnostics, chemical reactions, and particle sorting. 
