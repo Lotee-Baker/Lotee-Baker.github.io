@@ -2,14 +2,128 @@
 title: "Steel Truss"
 excerpt: "A steel truss built for research "
 header:
-  image: /assets/img/IMG_6910.jpg
-  teaser: /assets/img/IMG_6910.jpg
+  image: /assets/img/Truss1.jpeg
+  teaser: /assets/img/Truss1.jpeg
 gallery:
-  - image_path: /assets/img/IMG_6910.jpg
- 
-   
+  - image_path: /assets/img/Truss.jpeg
 ---
 
-# Features
+# Highway Cap Truss System
 
-Coming Soon 
+---
+
+## Overview
+As part of a comprehensive mechanical engineering project, I researched, designed, and tested a truss system intended to support a highway cap. The objective was to address the **social and structural impact** of past highway development, particularly in minority communities, by proposing a bridge structure that could reconnect divided neighborhoods.  
+
+The project combined **historical research, structural analysis, material science, and hands-on fabrication.**
+
+---
+
+## Skills Utilized
+- **Structural Analysis:** Applied equilibrium equations, method of joints, and method of sections to determine internal forces in truss members.  
+- **Material Science:** Evaluated failure modes using yielding and buckling equations with A-36 steel properties.  
+- **Prototyping & Fabrication:** Designed and constructed a scale model truss using welding and bolted pin-joint connections.  
+- **Welding:** Utilized welding techniques to join structural components for enhanced durability and stability.  
+- **Experimental Testing:** Applied incremental loading to observe structural failure points and validate theoretical calculations.  
+- **Simulation & Validation:** Verified results using the Johns Hopkins University Truss Simulator and compared with hand calculations.  
+- **Community-Focused Engineering:** Developed a truss-based solution integrating urban planning and social impact considerations.  
+- **Technical Communication:** Compiled research, calculations, and design recommendations into a structured engineering report.  
+
+---
+
+## Research & Design Process
+- **Historical Research:** The Federal Highway Act of 1956 led to the construction of interstates that, while improving transportation, often displaced minority communities. Case studies from Miami, New Orleans, Pittsburgh, and Rochester informed the motivation for our project.  
+- **Preliminary Truss Design:** A prototype was designed with eight pin joints and ten members, tested under a 350 lb load using both analytical calculations and simulation tools. *(Figure 1)*  
+- **Failure Analysis:** Members were assessed for buckling and yielding. The governing equations confirmed that the truss would fail due to buckling at 350 lbs, aligning with experimental observations. *(Figure 2)*  
+- **Final Bridge Design:** Two bridge configurations were compared, with Design 2 proving optimal for safety and community integration. Load placement was optimized to minimize stress while ensuring accessibility. *(Figures 3 & 4)*  
+
+---
+
+## Design Constraints and Calculations
+**Design Constraints:**  
+- Support a minimum load of **350 lbs** without exceeding material yield limits.  
+- Maintain an **8:1 span-to-height ratio** for structural stability.  
+- Incorporate standard **A-36 steel sections** with readily available dimensions.  
+- Use **bolted and welded connections** to allow practical assembly.  
+
+**Calculations:**  
+- **Load Analysis:** Applied static equilibrium equations to determine reaction forces at supports.  
+- **Internal Force Distribution:** Used the method of joints and sections to compute forces in individual members.  
+
+---
+
+## Results of Testing
+- The truss successfully supported up to **350 lbs** before exhibiting **buckling failure at over 500 lbs**, consistent with analytical predictions.  
+- Demonstrated effectiveness of the design while providing insights for potential future improvements.  
+
+---
+
+## Proposal
+The proposed **highway cap truss system** serves as both a structural and social solution.  
+- Designed to span **Jefferson Street**, divided by Interstate 40, and support a **community center, park, and playground**.  
+- Reconnects previously divided neighborhoods while maintaining highway functionality.  
+- Prioritizes safety by distributing load placement to **reduce strain on Joint E**.  
+
+---
+
+## Conclusion
+This project reinforced my expertise in **mechanical engineering principles, structural design, and real-world problem-solving**. By merging technical analysis with social impact considerations, I contributed to an engineering solution aimed at **restoring community cohesion**.  
+
+The experience further developed my ability to:  
+- Perform precise structural calculations  
+- Conduct material assessments  
+- Present engineering concepts effectively  
+
+## Gallery
+<p class="image-grid">
+  <figure>
+    <img src="/assets/img/Truss1.jpeg" alt="Truss Figure 1" />
+    <figcaption>Testing Truss Until Failure</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/img/Truss2.jpeg" alt="Truss Figure 2" />
+    <figcaption>Truss Design</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/img/Truss3.jpeg" alt="Truss Figure 3" />
+    <figcaption>Truss Joint Design</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/img/Truss4.jpeg" alt="Truss Figure 4" />
+    <figcaption>Before Buckling</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/img/Truss5.jpeg" alt="Truss Figure 5" />
+    <figcaption>Calculations</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/img/Truss6.jpeg" alt="Truss Figure 6" />
+    <figcaption>After Buckling at Member BH</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/img/Truss7.jpeg" alt="Truss Figure 7" />
+    <figcaption>Final Proposal</figcaption>
+  </figure>
+</p>
+
+<style>
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 per row */
+  gap: 12px;
+}
+.image-grid figure {
+  margin: 0;
+  text-align: center;
+}
+.image-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.image-grid figcaption {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 6px;
+}
+</style>
