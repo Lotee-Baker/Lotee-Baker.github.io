@@ -5,17 +5,46 @@ header:
   image: /assets/img/Laser8.jpeg
   teaser: /assets/img/Laser8.jpeg
 gallery:
-  - image_path: /assets/img/Laser1.jpeg
-  - image_path: /assets/img/Laser2.jpeg
-  - image_path: /assets/img/Laser3.jpeg
-  - image_path: /assets/img/Laser4.jpeg
-  - image_path: /assets/img/Laser5.jpeg
-  - image_path: /assets/img/Laser6.jpeg
-  - image_path: /assets/img/Laser7.jpeg
-  - image_path: /assets/img/Laser8.jpeg
-  - image_path: /assets/img/Laser9.jpeg
-  - image_path: /assets/img/Laser10.jpeg
-  - image_path: /assets/img/Laser11.jpeg
+  - url: /assets/img/Laser1.jpeg
+    image_path: /assets/img/Laser1.jpeg
+    alt: "Barry The Red Dinosaur"
+    title: "Barry The Red Dinosaur"
+  - url: /assets/img/Laser2.jpeg
+    image_path: /assets/img/Laser2.jpeg
+    alt: "Main Wiring"
+    title: "Main Wiring"
+  - url: /assets/img/Laser3.jpeg
+    image_path: /assets/img/Laser3.jpeg
+    alt: "Normal LCD Display"
+    title: "Normal LCD Display"
+  - url: /assets/img/Laser4.jpeg
+    image_path: /assets/img/Laser4.jpeg
+    alt: "Display Room"
+    title: "Display Room"
+  - url: /assets/img/Laser5.jpeg
+    image_path: /assets/img/Laser5.jpeg
+    alt: "Display and Wiring Housing"
+    title: "Display and Wiring Housing"
+  - url: /assets/img/Laser6.jpeg
+    image_path: /assets/img/Laser6.jpeg
+    alt: "LCD and Alarm Housing"
+    title: "LCD and Alarm Housing"
+  - url: /assets/img/Laser7.jpeg
+    image_path: /assets/img/Laser7.jpeg
+    alt: "Alarm LCD Display"
+    title: "Alarm LCD Display"
+  - url: /assets/img/Laser8.jpeg
+    image_path: /assets/img/Laser8.jpeg
+    alt: "Final Front View"
+    title: "Final Front View"
+  - url: /assets/img/Laser9.jpeg
+    image_path: /assets/img/Laser9.jpeg
+    alt: "Final Side View"
+    title: "Final Side View"
+  - url: /assets/img/Laser10.jpeg
+    image_path: /assets/img/Laser10.jpeg
+    alt: "LCD and Buzzer Wiring"
+    title: "LCD and Buzzer Wiring"
 ---
 
 
