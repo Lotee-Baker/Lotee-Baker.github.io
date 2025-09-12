@@ -6,14 +6,32 @@ header:
   teaser: /assets/img/Mainphone.jpg
 gallery:
   - image_path: /assets/img/Mainphone.jpg
+    alt: "Main Phone Assembly"
+    title: "Main Phone Assembly"
   - image_path: /assets/img/BottomClamp.jpg
+    alt: "Bottom Clamp"
+    title: "Bottom Clamp"
   - image_path: /assets/img/holder.jpg
+    alt: "Phone Holder"
+    title: "Phone Holder"
   - image_path: /assets/img/Phone1.jpg
+    alt: "Phone View 1"
+    title: "Phone View 1"
   - image_path: /assets/img/Phone2.jpg
+    alt: "Phone View 2"
+    title: "Phone View 2"
   - image_path: /assets/img/Phone3.jpg
+    alt: "Phone View 3"
+    title: "Phone View 3"
   - image_path: /assets/img/Top Clamp.jpg
+    alt: "Top Clamp"
+    title: "Top Clamp"
   - image_path: /assets/img/TPUBand.jpg
+    alt: "TPU Band"
+    title: "TPU Band"
   - image_path: /assets/img/Section.jpg
+    alt: "Section View"
+    title: "Section View"
 ---
 # The Goal 
 The goal of this design was to create a low profile phone holder that can affix to the handlebars of a bike or scooter and easily rotate between landscape and portrait mode. Like any good phone holder you should be able to quickly attach and detach your phone on the go and the phone should have no risk of falling out on a bumpy ride. 
