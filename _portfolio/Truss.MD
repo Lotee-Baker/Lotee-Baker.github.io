@@ -5,7 +5,34 @@ header:
   image: /assets/img/Truss1.jpeg
   teaser: /assets/img/Truss1.jpeg
 gallery:
-  - image_path: /assets/img/Truss.jpeg
+  - url: /assets/img/Truss1.jpeg
+    image_path: /assets/img/Truss1.jpeg
+    alt: "Testing the Truss"
+    title: "Testing the Truss"
+  - url: /assets/img/Truss2.jpeg
+    image_path: /assets/img/Truss2.jpeg
+    alt: "Truss Design"
+    title: "Truss Design"
+  - url: /assets/img/Truss3.jpeg
+    image_path: /assets/img/Truss3.jpeg
+    alt: "Truss Joint"
+    title: "Truss Joint"
+  - url: /assets/img/Truss4.jpeg
+    image_path: /assets/img/Truss4.jpeg
+    alt: "Member BH Before Buckling"
+    title: "Member BH Before Buckling"
+  - url: /assets/img/Truss5.jpeg
+    image_path: /assets/img/Truss5.jpeg
+    alt: "Internal Force Calculations"
+    title: "Internal Force Calculations"
+  - url: /assets/img/Truss6.jpeg
+    image_path: /assets/img/Truss6.jpeg
+    alt: "Truss After Failure, Buckle at BH"
+    title: "Truss After Failure, Buckle at BH"
+  - url: /assets/img/Truss7.jpeg
+    image_path: /assets/img/Truss7.jpeg
+    alt: "Final Proposal"
+    title: "Final Proposal"
 ---
 
 # Highway Cap Truss System
