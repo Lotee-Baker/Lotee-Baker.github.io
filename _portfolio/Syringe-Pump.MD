@@ -6,11 +6,17 @@ header:
   teaser: /assets/img/Syringe1.jpeg
 gallery:
   - image_path: /assets/img/Syringe1.jpeg
+    alt: "Final Result"
+    title: "Final Result"
   - image_path: /assets/img/Syringe2.jpeg
+    alt: "Wiring Diagram"
+    title: "Wiring Diagram"
   - image_path: /assets/img/Syringe3.jpeg
+    alt: "Fusion 360 Render"
+    title: "Fusion 360 Render"
   - image_path: /assets/img/Syringe4.jpeg
- 
-   
+    alt: "Arduino Code"
+    title: "Arduino Code"  
 ---
 
 # Design
