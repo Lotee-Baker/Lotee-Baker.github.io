@@ -17,16 +17,16 @@ gallery:
     image_path: /assets/img/Shoe3.jpeg
     alt: "Step 1"
     title: "Step 1"
-  - url: /assets/img/Shoe4.gif
-    image_path: /assets/img/Shoe4.gif
+  - url: /assets/img/Shoe4.jpeg
+    image_path: /assets/img/Shoe4.jpeg
     alt: "Step 2"
     title: "Step 2"
-  - url: /assets/img/Shoe5.gif
-    image_path: /assets/img/Shoe5.gif
+  - url: /assets/img/Shoe5.jpeg
+    image_path: /assets/img/Shoe5.jpeg
     alt: "Initial Brainstorm 1"
     title: "Initial Brainstorm 1"
-  - url: /assets/img/Shoe6.gif
-    image_path: /assets/img/Shoe6.gif
+  - url: /assets/img/Shoe6.jpeg
+    image_path: /assets/img/Shoe6.jpeg
     alt: "Initial Brainstorm 2"
     title: "Initial Brainstorm 2"
 ---
