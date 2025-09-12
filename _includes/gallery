@@ -16,9 +16,9 @@
   {% endif %}
 {% endif %}
 
-<div class="{{ gallery_layout }} {{ include.class }}">
+<figure class="{{ gallery_layout }} {{ include.class }}">
   {% for img in gallery %}
-    <figure>
+    <div style="display:inline-block; text-align:center; margin:0 0 1em; width:100%;">
       {% if img.url %}
         <a href="{{ img.url | relative_url }}">
           <img src="{{ img.image_path | relative_url }}"
@@ -29,14 +29,12 @@
              alt="{% if img.alt %}{{ img.alt }}{% endif %}">
       {% endif %}
       {% if img.title %}
-        <figcaption>{{ img.title }}</figcaption>
+        <div style="font-size:0.9rem; color:#555; margin-top:4px;">{{ img.title }}</div>
       {% endif %}
-    </figure>
+    </div>
   {% endfor %}
 
   {% if include.caption %}
-    <figcaption class="gallery-caption">
-      {{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}
-    </figcaption>
+    <figcaption>{{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
   {% endif %}
-</div>
+</figure>
