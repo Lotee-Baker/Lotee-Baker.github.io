@@ -2,8 +2,65 @@
 title: "Dough Transfer Conveyor Automation"
 excerpt: "Automating dough transfer to improve safety and quality at Conagra’s Council Bluffs plant"
 header:
-  image: /assets/img/DoughConveyor.jpeg
-  teaser: /assets/img/DoughConveyor.jpeg
+  image: /assets/img/Dough.gif
+  teaser: /assets/img/Dough.gif
+gallery:
+  - url: /assets/img/Dough1.jpeg
+    image_path: /assets/img/Dough1.jpeg
+    alt: "Final Result Aerial View"
+    title: "Final Result Aerial View"
+  - url: /assets/img/Dough2.jpeg
+    image_path: /assets/img/Dough2.jpeg
+    alt: "Dough Transfer Amount"
+    title: "Dough Transfer Amount"
+  - url: /assets/img/Dough3.jpeg
+    image_path: /assets/img/Dough3.jpeg
+    alt: "Sol 1 & 2 Pros & Cons"
+    title: "Sol 1 & 2 Pros & Cons"
+  - url: /assets/img/Dough4.jpeg
+    image_path: /assets/img/Dough4.jpeg
+    alt: "PFI Quote Top View"
+    title: "PFI Quote Top View"
+  - url: /assets/img/Dough5.jpeg
+    image_path: /assets/img/Dough5.jpeg
+    alt: "PFI Quote Side View"
+    title: "PFI Quote Side View"
+  - url: /assets/img/Dough6.jpeg
+    image_path: /assets/img/Dough6.jpeg
+    alt: "Forklift & Pallet Jack Clearance Check"
+    title: "Forklift & Pallet Jack Clearance Check"
+  - url: /assets/img/Dough7.jpeg
+    image_path: /assets/img/Dough7.jpeg
+    alt: "Final Result"
+    title: "Final Result"
+  - url: /assets/img/Dough8.jpeg
+    image_path: /assets/img/Dough8.jpeg
+    alt: "Final Result Side View"
+    title: "Final Result Side View"
+  - url: /assets/img/Dough1.jpeg
+    image_path: /assets/img/Dough1.jpeg
+    alt: "Final Result Aerial View"
+    title: "Final Result Aerial View"
+  - url: /assets/img/Dough9.jpeg
+    image_path: /assets/img/Dough9.jpeg
+    alt: "Dough Distance from Ceiling"
+    title: "Dough Distance from Ceiling"
+  - url: /assets/img/Dough9.jpeg
+    image_path: /assets/img/Dough9.jpeg
+    alt: "Dough Distance from Ceiling"
+    title: "Dough Distance from Ceiling"
+  - url: /assets/img/Dough10.jpeg
+    image_path: /assets/img/Dough10.jpeg
+    alt: "Dough Transfer Timeline"
+    title: "Dough Transfer Timeline"
+  - url: /assets/img/Conagra.jpeg
+    image_path: /assets/img/Conagra.jpeg
+    alt: "My Wonderful Co-Workers"
+    title: "My WOnderful Co-Workers"
+  - url: /assets/img/Dough.gif
+    image_path: /assets/img/Dough.gif
+    alt: "Final Result in Motion"
+    title: "Final Result in Motion"
 ---
 
 # Dough Transfer Conveyor Automation  
@@ -39,3 +96,5 @@ The financial analysis showed a **two-year ROI**, driven by labor savings and re
 By the end of the summer, I had delivered a fully costed and validated design. The automated conveyor solution eliminated manual dough transfer, improving **safety, ergonomics, and product quality** while freeing operators for higher-value tasks.  
 
 This project reinforced my ability to merge technical design with cost analysis and contractor coordination — skills I will continue to build as I pursue large-scale system design.  
+
+{% include gallery caption="Dough Transfer Conveyor Project Gallery" %}
