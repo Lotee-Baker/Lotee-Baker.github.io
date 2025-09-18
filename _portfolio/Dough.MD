@@ -56,7 +56,7 @@ gallery:
   - url: /assets/img/Conagra.jpeg
     image_path: /assets/img/Conagra.jpeg
     alt: "My Wonderful Co-Workers"
-    title: "My WOnderful Co-Workers"
+    title: "My Wonderful Co-Workers"
   - url: /assets/img/Dough.gif
     image_path: /assets/img/Dough.gif
     alt: "Final Result in Motion"
