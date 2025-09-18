@@ -14,13 +14,13 @@ feature_row:
     alt: "Zombie Animatronic"
     title: "Zombie Animatronic"
     excerpt: "A Custom Zombie Animatronic Addition to FlagTag AZ's laser tag arena "
+  - image_path: /assets/img/Dough.gif
+    alt: "Dough Transfer Conveyor Automation"
+    title: "Dough Transfer Conveyor Automation"
+    excerpt: "Automating dough transfer to improve safety and quality at Conagra’s Council Bluffs plant"
   - image_path: /assets/img/Laser8.jpeg
-    alt: "Escape Room Laser Alarm System"
     title: "Escape Room Laser Alarm System"
     excerpt: "A miniature art room with a laser alarm system"
-  - image_path: /assets/img/Syringe1.jpeg
-    title: "Syringe Pump"
-    excerpt: "A DIY syringe pump capable of 1 ul/min flow rate up to 10 ml/min"
 ---
 
 {% include feature_row %}
