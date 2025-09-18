@@ -61,10 +61,7 @@ gallery:
     image_path: /assets/img/Dough.gif
     alt: "Final Result in Motion"
     title: "Final Result in Motion"
----
-
-# Dough Transfer Conveyor Automation  
-
+--- 
 **Role:** Project Engineering Intern, Conagra Brands  
 **Timeline:** Summer 2025  
 
