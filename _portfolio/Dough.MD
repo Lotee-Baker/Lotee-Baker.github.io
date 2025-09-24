@@ -3,7 +3,7 @@ title: "Dough Transfer Conveyor Automation"
 excerpt: "Automating dough transfer to improve safety and quality at Conagra’s Council Bluffs plant"
 header:
   image: /assets/img/Dough.gif
-  teaser: /assets/img/Dough.gif
+  teaser: /assets/img/Dough1.jpeg
 gallery:
   - url: /assets/img/Dough1.jpeg
     image_path: /assets/img/Dough1.jpeg
