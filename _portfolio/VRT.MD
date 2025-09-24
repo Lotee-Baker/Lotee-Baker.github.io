@@ -32,7 +32,7 @@ gallery:
 ---
 
 ## Problem Statement  
-At Conagra, the VRT outfeed system could not keep up with the rate of cases coming from Combo 1 and Combo 2 production lines. Operators were forced to **hot stack cases** before they went into the freezer, and even then, the VRT could not outfeed at the same rate it was being infed.  
+At Conagra, the VRT outfeed system could not keep up with the rate of cases coming from the Combo 1 and Combo 2 production lines. Operators were forced to **hot stack cases** before they went into the freezer, and even then, the VRT could not outfeed at the same rate it was being infed.  
 
 This mismatch caused the outfeed system to **back up and shut down the VRT**, which is directly connected to both production lines. Every time the freezer stopped, both production lines stopped, leading to significant downtime costs.  
 
