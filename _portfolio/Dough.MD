@@ -62,36 +62,76 @@ gallery:
     alt: "Final Result in Motion"
     title: "Final Result in Motion"
 --- 
+
 **Role:** Project Engineering Intern, Conagra Brands  
 **Timeline:** Summer 2025  
 
 ---
 
-## The Challenge  
-At Conagra’s Council Bluffs facility, operators were manually moving **1,000 lbs of dough every 7.5 minutes** across 30 feet of floor to supply two pot pie production lines. This work was repetitive, physically demanding, and introduced risks to both operator safety and product consistency.  
+## The Problem  
+At Conagra’s Council Bluffs facility, dough transfer was being done manually. During full speed production, operators were moving **over 1,000 lbs of dough more than 30 feet across the floor every 7.5 minutes** to feed two pot pie production lines from a single automatic batch mixer (ABM). 
+
+![Dough Transfer Timeline](/assets/img/Dough10.jpeg)
+
+This was not only **physically demanding and unsafe for operators**, but it also introduced **quality concerns** because of the manual handling. 
 
 ---
 
-## Exploring Solutions  
-I began by brainstorming and modeling two automation strategies.  
+## Goal  
+My goal was to **improve operator safety by designing a system that fully automates the dough transfer between one ABM and two pot pie production lines**.  
 
-- **Overhead Double Conveyor System**: Elevating the dough transfer path above the floor, ensuring clearance for forklifts and pallet jacks, while keeping access to both lines clear.  
-- **Automated Guided Vehicles (AGVs)**: Replacing manual transfer with mobile robots, a flexible but expensive option that added traffic in an already busy space.  
-
-After leading a review with the project team, we selected the **overhead conveyor system**, which provided safety and efficiency at a manageable cost.  
-
----
-
-## Engineering the Design  
-With the solution chosen, I built a **Fusion 360 model** of the conveyor system to confirm spacing between the dough path, ceiling, and mobile equipment like pallet jacks. I also gathered and finalized contractor quotes covering conveyors, demolition, electrical, and installation.  
-
-The financial analysis showed a **two-year ROI**, driven by labor savings and reduced ergonomic risks.  
+The design needed to:  
+- Handle the **full volume of dough currently produced**.  
+- Be **sanitary and easy to clean**. 
+- integrate into the available footprint and avoid changes to existing equipment or facility structures.
+- Avoid obstructing **human, pallet jack, and forklift traffic** to the two production lines.  
+- Be **financially viable**, with a return on investment acceptable to the business.  
 
 ---
 
-## The Outcome  
-By the end of the summer, I had delivered a fully costed and validated design. The automated conveyor solution eliminated manual dough transfer, improving **safety, ergonomics, and product quality** while freeing operators for higher-value tasks.  
+## Design Options  
+I started by developing and presenting two different designs: 
 
-This project reinforced my ability to merge technical design with cost analysis and contractor coordination — skills I will continue to build as I pursue large-scale system design.  
+![Sol 1 & 2 Pros & Cons](/assets/img/Dough3.jpeg)
+
+1. **Double Conveyor Belt System**  
+   - Elevated the dough transfer above the floor.  
+   - Left overhead clearance for forklifts and pallet jacks.  
+   - Allowed access to both production lines without interfering with floor traffic.  
+
+2. **Automated Guided Vehicles (AGVs)**  
+   - Replaced operator handling with robots to transport dough.  
+   - Very flexible, but the contractor quote was extremely expensive.  
+
+I led a project team meeting to review the pros and cons of each option. While the AGV solution was interesting, the **cost was prohibitive**. The **overhead conveyor design** was chosen because it was **more cost-effective** and also reduced floor congestion in a pathway heavily used by forklifts and pallet jacks.  
+
+---
+
+## Engineering the Solution  
+Once the design direction was chosen, I worked with our selected contractor (PFI) to refine the plan.  
+
+- Using **Fusion 360**, I modeled the conveyor system and measured critical distances such as **clearance between the dough path and the ceiling**, and the space available for forklifts and pallet jacks.  
+- I collected and finalized **contractor quotes** for conveyor belts, demolition, and electrical work.  
+- This gave us a full cost estimate, which I presented in the final deliverable.  
+
+---
+## CAD Model 
+
+<iframe src="https://vanderbilt1079.autodesk360.com/shares/public/SH286ddQT78850c0d8a4e4b28acdd7851e7d?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
+---
+
+## Results & ROI  
+The final design eliminated the need for manual dough transfer and created a completely automated, **safer, more efficient process**.  
+
+- Operators were removed from a repetitive, high-strain task.  
+- Traffic flow on the floor was reduced, improving efficiency.  
+- Product quality improved with more consistent handling.  
+- The project delivered a **2-year ROI** based on safety improvements and labor savings.  
+
+---
+
+## Reflection  
+This project gave me the opportunity to lead design discussions, evaluate tradeoffs, and **take a concept all the way to a fully costed, contractor-approved solution**. It also reinforced how important it is to balance **technical feasibility, operator safety, and financial justification** in real-world engineering projects. 
 
 {% include gallery caption="Dough Transfer Conveyor Project Gallery" %}
