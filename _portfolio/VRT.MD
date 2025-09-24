@@ -25,6 +25,23 @@ gallery:
     image_path: /assets/img/VRT5.jpeg
     alt: "Conveyor System"
     title: "Conveyor System"
+  - url: /assets/img/VRT5.jpeg
+    image_path: /assets/img/VRT5.jpeg
+    alt: "Conveyor System"
+    title: "Conveyor System"
+  - url: /assets/img/VRT5.jpeg
+    image_path: /assets/img/VRT6.jpeg
+    alt: "Case Build-up from VRT Stop"
+    title: "Case Build-up from VRT Stop"
+  - url: /assets/img/VRT7.jpeg
+    image_path: /assets/img/VRT7.jpeg
+    alt: "Cases Fallen off of Darp Sorter"
+    title: "Cases Fallen off of Darp Sorter"
+  - url: /assets/img/VRT.gif
+    image_path: /assets/img/VRT.gif
+    alt: "Darp Sorter in Motion"
+    title: "Darp Sorter in Motion"
+
 ---
 
 **Role:** Project Engineering Intern, Conagra Brands  
