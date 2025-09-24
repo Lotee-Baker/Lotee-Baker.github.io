@@ -45,10 +45,6 @@ gallery:
     image_path: /assets/img/Dough9.jpeg
     alt: "Dough Distance from Ceiling"
     title: "Dough Distance from Ceiling"
-  - url: /assets/img/Dough9.jpeg
-    image_path: /assets/img/Dough9.jpeg
-    alt: "Dough Distance from Ceiling"
-    title: "Dough Distance from Ceiling"
   - url: /assets/img/Dough10.jpeg
     image_path: /assets/img/Dough10.jpeg
     alt: "Dough Transfer Timeline"
