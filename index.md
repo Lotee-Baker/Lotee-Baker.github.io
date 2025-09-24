@@ -10,7 +10,7 @@ header:
       url: "/portfolio/"
 excerpt: "Lotee Baker is an mechanical engineering student with a passion for entertainment engineering."
 feature_row:
-  - image_path: /assets/img/Zombie1.jpeg
+  - image_path: /assets/img/Zombie4.gif
     alt: "Zombie Animatronic"
     title: "Zombie Animatronic"
     excerpt: "A Custom Zombie Animatronic Addition to FlagTag AZ's laser tag arena "
