@@ -2,8 +2,8 @@
 title: "Phone Holder"
 excerpt: "Realiable, Low Profile, 3D Printed Phone Holder for a Bike or Scooter"
 header:
-  image: /assets/img/Phone.gif
-  teaser: /assets/img/Phone.gif
+  image: /assets/img/holderRender.jpg
+  teaser: /assets/img/holderRender.jpg
 gallery:
   - image_path: /assets/img/Mainphone.jpg
     alt: "Main Phone Assembly"
