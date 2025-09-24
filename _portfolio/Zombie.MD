@@ -2,8 +2,8 @@
 title: "Zombie Animatronic"
 excerpt: "A Zombie Animatronic Addition to Flag Tag AZ's laser tag arena"
 header:
-  image: /assets/img/Zombie1.jpeg
-  teaser: /assets/img/Zombie1.jpeg
+  image: /assets/img/Zombie4.gif
+  teaser: /assets/img/Zombie4.gif
 gallery:
   - url: /assets/img/Zombie1.jpeg
     image_path: /assets/img/Zombie1.jpeg
