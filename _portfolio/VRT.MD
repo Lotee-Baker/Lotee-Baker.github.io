@@ -27,8 +27,6 @@ gallery:
     title: "Conveyor System"
 ---
 
-# VRT Outfeed Conveyor Optimization  
-
 **Role:** Project Engineering Intern, Conagra Brands  
 **Timeline:** Summer 2025  
 
