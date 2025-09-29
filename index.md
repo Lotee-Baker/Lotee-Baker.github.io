@@ -8,7 +8,7 @@ header:
   actions:
     - label: "My Projects"
       url: "/portfolio/"
-excerpt: "Lotee Baker is an mechanical engineering student with a passion for entertainment engineering."
+excerpt: "Lotee Baker is an mechanical engineering student with a passion for themed entertainment and the art of storytelling with machines."
 feature_row:
   - image_path: /assets/img/Zombie4.gif
     alt: "Zombie Animatronic"
