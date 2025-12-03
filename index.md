@@ -14,7 +14,7 @@ feature_row:
     alt: "Zombie Animatronic"
     title: "Zombie Animatronic"
     excerpt: "A Custom Zombie Animatronic Addition to FlagTag AZ's laser tag arena "
-    url: "/portfolio/zombie/"
+    url: url: "https://lotee-baker.github.io/portfolio/Zombie/"
   - image_path: /assets/img/Dough.gif
     alt: "Dough Transfer Conveyor Automation"
     title: "Dough Transfer Conveyor Automation"
