@@ -1,6 +1,9 @@
 ---
 title: "Fungal Bookshelf"
 excerpt: "Fungal Bookshelf Created With Generative Design"
+categories:
+  - Advanced Manufacturing
+  - Research and Experimental
 header:
   image: /assets/img/Shelf1.png
   teaser: /assets/img/Shelf1.png
