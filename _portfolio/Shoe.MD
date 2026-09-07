@@ -1,6 +1,8 @@
 ---
 title: "Shoe Drop"
 excerpt: "As part of TOM (Tikkun Olam Makers), our team developed an innovative gait training device for patients at the Pi Beta Phi Clinic. "
+categories:
+  - Research and Experimental
 header:
   image: /assets/img/Shoe1.jpeg
   teaser: /assets/img/Shoe1.jpeg
