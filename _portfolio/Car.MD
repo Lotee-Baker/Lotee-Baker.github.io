@@ -1,6 +1,8 @@
 ---
 title: "School Spirit Car"
 excerpt: "A small, motorized, gear-driven car that won 1st in school spirit "
+categories:
+  - Design Engineering
 header:
   image: /assets/img/Car1.jpeg
   teaser: /assets/img/Car1.jpeg
