@@ -1,6 +1,8 @@
 ---
 title: "Multi-Material Pliers"
 excerpt: "Print in place multimaterial pliers capable of picking up a resistor"
+categories:
+  - Advanced Manufacturing
 header:
   image: /assets/img/Pliers.jpg
   teaser: /assets/img/Pliers.jpg
