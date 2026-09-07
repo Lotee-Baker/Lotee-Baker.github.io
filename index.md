@@ -18,7 +18,7 @@ excerpt: "Lotee Baker is an mechanical engineering student with a passion for th
   <div style="border: 1px solid #ddd; border-radius: 6px; overflow: hidden; background: #fff;">
 
     <a href="https://lotee-baker.github.io/portfolio/Zombie/">
-      <img src="/assets/img/Zombie4.gif" alt="Zombie Animatronic" style="width: 100%; height: 400px; object-fit: cover; display: block;">
+      <img src="/assets/img/Zombie4.gif" alt="Zombie Animatronic" style="width: 100%; height: 420px; object-fit: cover; display: block;">
     </a>
 
     <div style="padding: 20px;">
@@ -39,7 +39,7 @@ excerpt: "Lotee Baker is an mechanical engineering student with a passion for th
   <div style="border: 1px solid #ddd; border-radius: 6px; overflow: hidden; background: #fff;">
 
     <a href="https://lotee-baker.github.io/portfolio/Dough/">
-      <img src="/assets/img/Dough.gif" alt="Dough Transfer Conveyor Automation" style="width: 100%; height: 400px; object-fit: cover; display: block;">
+      <img src="/assets/img/Dough.gif" alt="Dough Transfer Conveyor Automation" style="width: 100%; height: 420px; object-fit: cover; display: block;">
     </a>
 
     <div style="padding: 20px;">
@@ -60,7 +60,7 @@ excerpt: "Lotee Baker is an mechanical engineering student with a passion for th
   <div style="border: 1px solid #ddd; border-radius: 6px; overflow: hidden; background: #fff;">
 
     <a href="https://lotee-baker.github.io/portfolio/Laser/">
-      <img src="/assets/img/Laser8.jpeg" alt="Escape Room Laser Alarm System" style="width: 100%; height: 400px; object-fit: cover; display: block;">
+      <img src="/assets/img/Laser8.jpeg" alt="Escape Room Laser Alarm System" style="width: 100%; height: 420px; object-fit: cover; display: block;">
     </a>
 
     <div style="padding: 20px;">
