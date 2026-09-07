@@ -1,6 +1,9 @@
 ---
 title: "Phone Holder"
 excerpt: "Realiable, Low Profile, 3D Printed Phone Holder for a Bike or Scooter"
+categories:
+  - Design Engineering
+  - Advanced Manufacturing
 header:
   image: /assets/img/holderRender.jpg
   teaser: /assets/img/holderRender.jpg
