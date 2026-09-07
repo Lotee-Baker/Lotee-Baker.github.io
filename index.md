@@ -9,31 +9,75 @@ header:
     - label: "My Projects"
       url: "/portfolio/"
 excerpt: "Lotee Baker is an mechanical engineering student with a passion for themed entertainment and the art of storytelling with machines."
-
-feature_row:
-  - image_path: /assets/img/Zombie4.gif
-    alt: "Zombie Animatronic"
-    title: "Zombie Animatronic"
-    excerpt: "A Custom Zombie Animatronic Addition to FlagTag AZ's laser tag arena"
-    url: "https://lotee-baker.github.io/portfolio/Zombie/"
-    btn_label: "View Project"
-    btn_class: "btn--primary"
-
-  - image_path: /assets/img/Dough.gif
-    alt: "Dough Transfer Conveyor Automation"
-    title: "Dough Transfer Conveyor Automation"
-    excerpt: "Automating dough transfer to improve safety and quality at Conagra’s Council Bluffs plant"
-    url: "https://lotee-baker.github.io/portfolio/Dough/"
-    btn_label: "View Project"
-    btn_class: "btn--primary"
-
-  - image_path: /assets/img/Laser8.jpeg
-    alt: "Escape Room Laser Alarm System"
-    title: "Escape Room Laser Alarm System"
-    excerpt: "A miniature art room with a laser alarm system"
-    url: "https://lotee-baker.github.io/portfolio/Laser/"
-    btn_label: "View Project"
-    btn_class: "btn--primary"
 ---
-{% include feature_row %}
+
+## Featured Projects
+
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; margin-bottom: 40px;">
+
+  <div style="border: 1px solid #ddd; border-radius: 6px; overflow: hidden; background: #fff;">
+
+    <a href="https://lotee-baker.github.io/portfolio/Zombie/">
+      <img src="/assets/img/Zombie4.gif" alt="Zombie Animatronic" style="width: 100%; height: 220px; object-fit: cover; display: block;">
+    </a>
+
+    <div style="padding: 20px;">
+      <h2>Zombie Animatronic</h2>
+
+      <p>
+        A custom zombie animatronic addition to FlagTag AZ's laser tag arena.
+      </p>
+
+      <a href="https://lotee-baker.github.io/portfolio/Zombie/" class="btn btn--primary">
+        View Project
+      </a>
+    </div>
+
+  </div>
+
+
+  <div style="border: 1px solid #ddd; border-radius: 6px; overflow: hidden; background: #fff;">
+
+    <a href="https://lotee-baker.github.io/portfolio/Dough/">
+      <img src="/assets/img/Dough.gif" alt="Dough Transfer Conveyor Automation" style="width: 100%; height: 220px; object-fit: cover; display: block;">
+    </a>
+
+    <div style="padding: 20px;">
+      <h2>Dough Transfer Conveyor Automation</h2>
+
+      <p>
+        Automating dough transfer to improve safety and quality at Conagra's Council Bluffs plant.
+      </p>
+
+      <a href="https://lotee-baker.github.io/portfolio/Dough/" class="btn btn--primary">
+        View Project
+      </a>
+    </div>
+
+  </div>
+
+
+  <div style="border: 1px solid #ddd; border-radius: 6px; overflow: hidden; background: #fff;">
+
+    <a href="https://lotee-baker.github.io/portfolio/Laser/">
+      <img src="/assets/img/Laser8.jpeg" alt="Escape Room Laser Alarm System" style="width: 100%; height: 220px; object-fit: cover; display: block;">
+    </a>
+
+    <div style="padding: 20px;">
+      <h2>Escape Room Laser Alarm System</h2>
+
+      <p>
+        A miniature art room with an interactive laser alarm system.
+      </p>
+
+      <a href="https://lotee-baker.github.io/portfolio/Laser/" class="btn btn--primary">
+        View Project
+      </a>
+    </div>
+
+  </div>
+
+</div>
+
+
 
