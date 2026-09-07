@@ -274,10 +274,15 @@
     }
 
     .feature__item-teaser {
-      max-height: 200px;
-      overflow: hidden;
-    }
+  height: 250px;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
+}
 
   .archive__item-body {
     padding-left: gutter(1 of 12);
