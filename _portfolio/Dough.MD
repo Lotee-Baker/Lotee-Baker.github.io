@@ -1,6 +1,8 @@
 ---
 title: "Dough Transfer Conveyor Automation"
 excerpt: "Automating dough transfer to improve safety and quality at Conagra’s Council Bluffs plant"
+categories: 
+  - Mechatronics & Automation
 header:
   image: /assets/img/Dough7.jpeg
   teaser: /assets/img/Dough.gif
