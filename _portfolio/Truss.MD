@@ -1,6 +1,8 @@
 ---
 title: "Steel Truss"
 excerpt: "A steel truss built for research"
+categories:
+  - Research and Experimental
 header:
   image: "/assets/img/Truss1.jpeg"
   teaser: "/assets/img/Truss1.jpeg"
