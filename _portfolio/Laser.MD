@@ -1,6 +1,9 @@
 ---
 title: "Escape Room Laser Alarm System"
 excerpt: "A minture art room with a laser alarm system to protect Barry the Red Dinosour"
+categories:
+  - Show Systems 
+  - Mechatronics & Automation
 header:
   image: /assets/img/Laser8.jpeg
   teaser: /assets/img/Laser8.jpeg
