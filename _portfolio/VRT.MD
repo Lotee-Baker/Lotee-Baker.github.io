@@ -1,6 +1,8 @@
 ---
 title: "VRT Outfeed Conveyor Optimization"
 excerpt: "Doubling throughput capacity of Conagra’s VRT outfeed system"
+categories:
+  - Mechatronics & Automation
 header:
   image: /assets/img/VRT3.jpeg
   teaser: /assets/img/VRT3.jpeg
