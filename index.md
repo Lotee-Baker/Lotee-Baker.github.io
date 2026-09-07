@@ -1,4 +1,3 @@
-
 ---
 title: "Mechanical Engineering Portfolio"
 layout: splash
@@ -36,6 +35,5 @@ feature_row:
     btn_label: "View Project"
     btn_class: "btn--primary"
 ---
-
 {% include feature_row %}
 
