@@ -8,7 +8,7 @@ header:
   actions:
     - label: "My Projects"
       url: "/portfolio/"
-excerpt: "Hello, I am a rising senior at Vanderbilt University Majoring in Mechanical Engineering and Minoring in Digital Fabrication, graduating in May 2027. I am especially interested in engineering for themed entertainment and the intersection of storytelling and technology; explore my diverse projects to see how I apply mechanical design, mechatronics, manufacturing, and hands-on problem-solving to create engaging and functional experiences."
+excerpt: "Hello, I am a rising senior at Vanderbilt University Majoring in Mechanical Engineering and Minoring in Digital Fabrication, graduating in May 2027. I am especially interested in engineering for themed entertainment and the intersection of storytelling and machines; explore my diverse projects below to see how I apply mechanical design, mechatronics, manufacturing, and hands-on problem-solving to create engaging and functional experiences."
 ---
 
 ## Featured Projects
