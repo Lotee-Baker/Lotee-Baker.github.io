@@ -3,21 +3,30 @@
 title: "About Lotee Baker"
 
 ---
-Lotee is a knowledgeable, self-starter, and performance driven Mechanical Engineering student with passion for positively impacting people’s lives‬
-‭ through engineering. Excels at problem solving and learning quickly, looking to attain an internship position.‬
+A knowledgeable, self-starter, and performance driven Mechanical Engineering student with passion for positively impacting people’s lives‬
+‭ through engineering. Excels at problem solving and learning quickly, looking to attain a full time position.‬
 ‭
 
 ## Education
 
 * Vanderbilt University
-  * BS Mechanical Engineering
-Expected Graduation: 2027
+  * BS Mechanical Engineering, Minor: Digital Fabrication 
+Expected Graduation: May 2027
 
 ## Professional Experience 
 
+### System Engineering Intern 
+**Universal Creative** | Orlando, FL
+*June 2026 - August 2026*
+- Created SolidWorks models and manufacturing drawings, helping bring large show action equipment back into show after more than 8 months out of show.
+- Wrote guidance documentation for vibration testing of onboard and show action equipment used across Universal Creative, including taking vibration data, interpreting vibrations, designing against vibrations, and accurately prescribing shaker table test procedures.
+- Worked within a team to design, fabricate, and present an animated prop mockup for use in future projects. My responsibilities included operating a 6-axis robot and prototyping and fabricating a custom connection between the robot and the animated prop.
+
+---
+
 ### Engineering Co-op (Process Systems & Optimization)  
 **Conagra Brands** | Nashville, TN  
-*September 2025 – Present*  
+*September 2025 – May 2026*  
 - Created interactive, dimensionally accurate virtual plant models by capturing and refining 3D scans of production facilities.  
 - Converted 3D plant models into 2D drafts using AutoCAD and Revit, and brought design innovations to life with SolidWorks.  
 
