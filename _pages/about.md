@@ -16,7 +16,7 @@ Expected Graduation: May 2027
 ## Professional Experience 
 
 ### System Engineering Intern 
-**Universal Creative** | Orlando, FL
+**Universal Creative** | Orlando, FL             
 *June 2026 - August 2026*
 - Created SolidWorks models and manufacturing drawings, helping bring large show action equipment back into show after more than 8 months out of show.
 - Wrote guidance documentation for vibration testing of onboard and show action equipment used across Universal Creative, including taking vibration data, interpreting vibrations, designing against vibrations, and accurately prescribing shaker table test procedures.
