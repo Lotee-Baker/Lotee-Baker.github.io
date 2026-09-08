@@ -1,5 +1,5 @@
 ---
-title: "Mechanical Engineering Portfolio"
+title: "Lotee Baker"
 layout: splash
 header:
   overlay_color: "#000"
