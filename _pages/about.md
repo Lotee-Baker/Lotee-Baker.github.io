@@ -42,8 +42,8 @@ Expected Graduation: May 2027
 ### Engineering Intern  
 **Conagra Brands** | Omaha, NE  
 *May 2025 – August 2025*  
-- Designed a conveyor belt system that improved safety and efficiency, delivering **$150K+ annual savings with a 2-year ROI**.  
-- Doubled throughput capacity by optimizing the outfeed conveyor system, achieving **$230K+ annual savings with a 1-year ROI**.  
+- Designed a conveyor belt system that improved safety and efficiency, delivering $150K+ annual savings with a 2-year ROI.  
+- Doubled throughput capacity by optimizing the outfeed conveyor system, achieving $230K+ annual savings with a 1-year ROI.  
 
 ---
 
