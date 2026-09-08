@@ -1,5 +1,5 @@
 ---
-title: "Lotee Baker"
+title: "Machines With A Story To Tell"
 layout: splash
 header:
   overlay_color: "#000"
@@ -8,7 +8,7 @@ header:
   actions:
     - label: "My Projects"
       url: "/portfolio/"
-excerpt: "Hello, I am a rising senior at Vanderbilt University Majoring in Mechanical Engineering and Minoring in Digital Fabrication, graduating in May 2027. I am especially interested in engineering for themed entertainment and the intersection of storytelling and machines; explore my diverse projects below to see how I apply mechanical design, mechatronics, manufacturing, and hands-on problem-solving to create engaging and functional experiences."
+excerpt: "Hello, My name is Lotee Baker and I am a rising senior at Vanderbilt University. I am Majoring in Mechanical Engineering and Minoring in Digital Fabrication with an upcoming graduation date of May 2027. I am especially interested in engineering for themed entertainment and the intersection of storytelling and machines; explore my diverse projects below to see how I apply mechanical design, mechatronics, manufacturing, and hands-on problem-solving to create engaging and functional experiences."
 ---
 
 ## Featured Projects
