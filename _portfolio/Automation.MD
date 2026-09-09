@@ -171,39 +171,295 @@ The biggest takeaway was understanding that programming an individual robot or P
 
 Working from the individual robot sequence through PLC programming and finally full production-line integration gave me practical experience with **Siemens PLC programming, ladder logic, Mitsubishi industrial robotics, MELFA-BASIC IV, sensor integration, pneumatic control, HMI fault handling, digital I/O, inter-station communication, and automated sequence control**.
 
----
-## PLC Variable Table
-
-| Signal / Tag | Data Type | Address | I/O Category | Description / Function |
-|---|---|---|---|---|
-| R5 | Bool | %I1.5 | Digital Input | Robot arm cycle finished signal |
-| I4 | Bool | %I0.4 | Digital Input | Spring presence sensor |
-| I5 | Bool | %I0.5 | Digital Input | Top presence sensor A |
-| I6 | Bool | %I0.6 | Digital Input | Top presence sensor B |
-| I0 | Bool | %I0.0 | Digital Input | Feed / position sensor 0 |
-| I1 | Bool | %I0.1 | Digital Input | Feed / position sensor 1 |
-| I2 | Bool | %I0.2 | Digital Input | Feed / position sensor 2 |
-| I3 | Bool | %I0.3 | Digital Input | Feed / position sensor 3 |
-| O0 | Bool | %Q0.0 | Digital Output | Actuator / spring pusher |
-| O1 | Bool | %Q0.1 | Digital Output | Actuator / top pusher |
-| O1.1 | Bool | %Q1.1 | Digital Output | Actuator / turns on operation rights |
-| O1.2 | Bool | %Q1.2 | Digital Output | Actuator / starts the servos |
-| OR | Bool | %Q0.2 | Digital Output | Actuator / starts the robot code |
-| O1.0 | Bool | %Q1.0 | Digital Output | Actuator / turns off the servos |
-| Spring Missing | Bool | %M100.0 | Memory Bit / HMI Status | Diagnostic error flag sent to HMI when spring is missing |
-| Top Missing | Bool | %M100.1 | Memory Bit / HMI Status | Diagnostic error flag sent to HMI when top cap is missing |
-| Ready | Bool | %M1.0 | Memory Bit / HMI Status | System initialization / ready status shown on HMI |
-| Finished Piece | Bool | %M100.2 | Memory Bit / HMI Status | Cycle complete flag / finished piece indicator |
-| Springs Restocked | Bool | %M100.3 | Memory Bit / HMI Input | Fault reset pulse from HMI button after springs are restocked |
-| Tops Restocked | Bool | %M100.4 | Memory Bit / HMI Input | Fault reset pulse from HMI button after tops are restocked |
-
 {% include gallery caption="Industrial Automation Assembly Line Project Gallery" %}
 
 ---
+## Appendix
 
-## Appendix: Mitsubishi MELFA-BASIC IV Robot Program
+### PLC Variable Table
 
-The complete MELFA-BASIC IV program used to control the Mitsubishi industrial robot is shown below. The program is divided into three columns, with notes explaining the purpose of each section and the logic behind the robot's movements.
+The Siemens PLC variables used to control the assembly station are shown below. The table is divided into two sections to make the complete I/O and HMI mapping easier to view at once.
+
+<style>
+.plc-table-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 25px;
+
+  /* Makes the two tables wider, matching the robot appendix */
+  width: 200%;
+  margin-left: -50%;
+
+  margin-top: 20px;
+  margin-bottom: 40px;
+  align-items: start;
+}
+
+.plc-table-column {
+  min-width: 0;
+}
+
+.plc-table-column h4 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.plc-table-column table {
+  width: 100%;
+  font-size: 0.72em;
+  line-height: 1.3;
+  table-layout: auto;
+}
+
+.plc-table-column th,
+.plc-table-column td {
+  padding: 6px 7px;
+  vertical-align: top;
+}
+
+.plc-table-column th {
+  white-space: nowrap;
+}
+
+@media (max-width: 900px) {
+  .plc-table-grid {
+    grid-template-columns: 1fr;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .plc-table-column table {
+    font-size: 0.8em;
+  }
+}
+</style>
+
+
+<div class="plc-table-grid">
+
+
+<!-- ========================================================= -->
+<!-- PLC TABLE COLUMN 1 -->
+<!-- ========================================================= -->
+
+<div class="plc-table-column">
+
+<h4>Physical I/O</h4>
+
+<table>
+<thead>
+<tr>
+<th>Signal / Tag</th>
+<th>Data Type</th>
+<th>Address</th>
+<th>I/O Category</th>
+<th>Description / Function</th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr>
+<td><strong>R5</strong></td>
+<td>Bool</td>
+<td>%I1.5</td>
+<td>Digital Input</td>
+<td>Robot arm cycle finished signal</td>
+</tr>
+
+<tr>
+<td><strong>I4</strong></td>
+<td>Bool</td>
+<td>%I0.4</td>
+<td>Digital Input</td>
+<td>Spring presence sensor</td>
+</tr>
+
+<tr>
+<td><strong>I5</strong></td>
+<td>Bool</td>
+<td>%I0.5</td>
+<td>Digital Input</td>
+<td>Top presence sensor A</td>
+</tr>
+
+<tr>
+<td><strong>I6</strong></td>
+<td>Bool</td>
+<td>%I0.6</td>
+<td>Digital Input</td>
+<td>Top presence sensor B</td>
+</tr>
+
+<tr>
+<td><strong>I0</strong></td>
+<td>Bool</td>
+<td>%I0.0</td>
+<td>Digital Input</td>
+<td>Feed / position sensor 0</td>
+</tr>
+
+<tr>
+<td><strong>I1</strong></td>
+<td>Bool</td>
+<td>%I0.1</td>
+<td>Digital Input</td>
+<td>Feed / position sensor 1</td>
+</tr>
+
+<tr>
+<td><strong>I2</strong></td>
+<td>Bool</td>
+<td>%I0.2</td>
+<td>Digital Input</td>
+<td>Feed / position sensor 2</td>
+</tr>
+
+<tr>
+<td><strong>I3</strong></td>
+<td>Bool</td>
+<td>%I0.3</td>
+<td>Digital Input</td>
+<td>Feed / position sensor 3</td>
+</tr>
+
+<tr>
+<td><strong>O0</strong></td>
+<td>Bool</td>
+<td>%Q0.0</td>
+<td>Digital Output</td>
+<td>Actuator / spring pusher</td>
+</tr>
+
+<tr>
+<td><strong>O1</strong></td>
+<td>Bool</td>
+<td>%Q0.1</td>
+<td>Digital Output</td>
+<td>Actuator / top pusher</td>
+</tr>
+
+<tr>
+<td><strong>O1.1</strong></td>
+<td>Bool</td>
+<td>%Q1.1</td>
+<td>Digital Output</td>
+<td>Turns on operation rights</td>
+</tr>
+
+<tr>
+<td><strong>O1.2</strong></td>
+<td>Bool</td>
+<td>%Q1.2</td>
+<td>Digital Output</td>
+<td>Starts the robot servos</td>
+</tr>
+
+<tr>
+<td><strong>OR</strong></td>
+<td>Bool</td>
+<td>%Q0.2</td>
+<td>Digital Output</td>
+<td>Starts the robot program</td>
+</tr>
+
+<tr>
+<td><strong>O1.0</strong></td>
+<td>Bool</td>
+<td>%Q1.0</td>
+<td>Digital Output</td>
+<td>Turns off the robot servos</td>
+</tr>
+
+</tbody>
+</table>
+
+</div>
+
+
+
+<!-- ========================================================= -->
+<!-- PLC TABLE COLUMN 2 -->
+<!-- ========================================================= -->
+
+<div class="plc-table-column">
+
+<h4>PLC Memory & HMI Variables</h4>
+
+<table>
+<thead>
+<tr>
+<th>Signal / Tag</th>
+<th>Data Type</th>
+<th>Address</th>
+<th>I/O Category</th>
+<th>Description / Function</th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr>
+<td><strong>Spring Missing</strong></td>
+<td>Bool</td>
+<td>%M100.0</td>
+<td>Memory Bit / HMI Status</td>
+<td>Diagnostic error flag sent to the HMI when springs are unavailable</td>
+</tr>
+
+<tr>
+<td><strong>Top Missing</strong></td>
+<td>Bool</td>
+<td>%M100.1</td>
+<td>Memory Bit / HMI Status</td>
+<td>Diagnostic error flag sent to the HMI when top caps are unavailable</td>
+</tr>
+
+<tr>
+<td><strong>Ready</strong></td>
+<td>Bool</td>
+<td>%M1.0</td>
+<td>Memory Bit / HMI Status</td>
+<td>System ready status displayed on the HMI and used for line communication</td>
+</tr>
+
+<tr>
+<td><strong>Finished Piece</strong></td>
+<td>Bool</td>
+<td>%M100.2</td>
+<td>Memory Bit / HMI Status</td>
+<td>Cycle complete / finished piece indicator</td>
+</tr>
+
+<tr>
+<td><strong>Springs Restocked</strong></td>
+<td>Bool</td>
+<td>%M100.3</td>
+<td>Memory Bit / HMI Input</td>
+<td>Fault reset pulse from the HMI after springs have been restocked</td>
+</tr>
+
+<tr>
+<td><strong>Tops Restocked</strong></td>
+<td>Bool</td>
+<td>%M100.4</td>
+<td>Memory Bit / HMI Input</td>
+<td>Fault reset pulse from the HMI after tops have been restocked</td>
+</tr>
+
+</tbody>
+</table>
+
+</div>
+
+
+</div>
+
+
+---
+
+### Mitsubishi MELFA-BASIC IV Robot Program
 
 <style>
 .robot-appendix-grid {
