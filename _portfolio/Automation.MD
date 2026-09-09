@@ -123,8 +123,8 @@ The Siemens PLC variables used to control the assembly station are shown below. 
   gap: 25px;
 
   /* Makes the two tables wider, matching the robot appendix */
-  width: 200%;
-  margin-left: -50%;
+  width: 100%;
+  margin-left: 0%;
 
   margin-top: 20px;
   margin-bottom: 40px;
@@ -402,8 +402,8 @@ The Siemens PLC variables used to control the assembly station are shown below. 
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 20px;
-  width: 200%;
-  margin-left: -50%;
+  width: 100%;
+  margin-left: 0%;
   margin-top: 25px;
   align-items: start;
 }
