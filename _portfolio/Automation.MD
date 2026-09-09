@@ -3,6 +3,7 @@ title: "Industrial Automation Assembly Line"
 excerpt: "Programming and integrating a Siemens PLC and Mitsubishi industrial robot as part of a multi-station automated production line"
 categories:
   - Mechatronics & Automation
+Classes: wide
 header:
   image: /assets/img/Auto1.jpeg
   teaser: /assets/img/Auto1.jpeg
