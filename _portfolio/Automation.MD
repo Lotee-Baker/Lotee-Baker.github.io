@@ -14,7 +14,7 @@ header:
 ---
 
 <video width="100%" autoplay muted loop playsinline>
-  <source src="/assets/video/Auto11.mp4" type="video/mp4">
+  <source src="/assets/img/Auto11.mp4" type="video/mp4">
 </video>
 
 ---
