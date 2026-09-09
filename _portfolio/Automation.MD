@@ -30,7 +30,7 @@ header:
 
 ---
 
-<video width="150%" autoplay muted loop playsinline>
+<video width="100%" autoplay muted loop playsinline>
   <source src="/assets/img/Auto12.mp4" type="video/mp4">
 </video>
 
@@ -113,8 +113,6 @@ Completing the project while studying abroad also made the experience especially
 ## Appendix
 
 ### PLC Variable Table
-
-The Siemens PLC variables used to control the assembly station are shown below. The table is divided into two sections to make the complete I/O and HMI mapping easier to view at once.
 
 <style>
 .plc-table-grid {
