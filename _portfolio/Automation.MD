@@ -13,6 +13,12 @@ header:
 
 ---
 
+<video width="100%" autoplay muted loop playsinline>
+  <source src="/assets/video/Auto11.mp4" type="video/mp4">
+</video>
+
+---
+
 ## Project Overview
 
 The goal of this project was to learn the fundamentals of **industrial automation and PLC programming** by programming one station of a small automated production line.
