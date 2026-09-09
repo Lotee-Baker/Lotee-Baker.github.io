@@ -172,6 +172,30 @@ The biggest takeaway was understanding that programming an individual robot or P
 Working from the individual robot sequence through PLC programming and finally full production-line integration gave me practical experience with **Siemens PLC programming, ladder logic, Mitsubishi industrial robotics, MELFA-BASIC IV, sensor integration, pneumatic control, HMI fault handling, digital I/O, inter-station communication, and automated sequence control**.
 
 ---
+## PLC Variable Table
+
+| Signal / Tag | Data Type | Address | I/O Category | Description / Function |
+|---|---|---|---|---|
+| R5 | Bool | %I1.5 | Digital Input | Robot arm cycle finished signal |
+| I4 | Bool | %I0.4 | Digital Input | Spring presence sensor |
+| I5 | Bool | %I0.5 | Digital Input | Top presence sensor A |
+| I6 | Bool | %I0.6 | Digital Input | Top presence sensor B |
+| I0 | Bool | %I0.0 | Digital Input | Feed / position sensor 0 |
+| I1 | Bool | %I0.1 | Digital Input | Feed / position sensor 1 |
+| I2 | Bool | %I0.2 | Digital Input | Feed / position sensor 2 |
+| I3 | Bool | %I0.3 | Digital Input | Feed / position sensor 3 |
+| O0 | Bool | %Q0.0 | Digital Output | Actuator / spring pusher |
+| O1 | Bool | %Q0.1 | Digital Output | Actuator / top pusher |
+| O1.1 | Bool | %Q1.1 | Digital Output | Actuator / turns on operation rights |
+| O1.2 | Bool | %Q1.2 | Digital Output | Actuator / starts the servos |
+| OR | Bool | %Q0.2 | Digital Output | Actuator / starts the robot code |
+| O1.0 | Bool | %Q1.0 | Digital Output | Actuator / turns off the servos |
+| Spring Missing | Bool | %M100.0 | Memory Bit / HMI Status | Diagnostic error flag sent to HMI when spring is missing |
+| Top Missing | Bool | %M100.1 | Memory Bit / HMI Status | Diagnostic error flag sent to HMI when top cap is missing |
+| Ready | Bool | %M1.0 | Memory Bit / HMI Status | System initialization / ready status shown on HMI |
+| Finished Piece | Bool | %M100.2 | Memory Bit / HMI Status | Cycle complete flag / finished piece indicator |
+| Springs Restocked | Bool | %M100.3 | Memory Bit / HMI Input | Fault reset pulse from HMI button after springs are restocked |
+| Tops Restocked | Bool | %M100.4 | Memory Bit / HMI Input | Fault reset pulse from HMI button after tops are restocked |
 
 {% include gallery caption="Industrial Automation Assembly Line Project Gallery" %}
 
