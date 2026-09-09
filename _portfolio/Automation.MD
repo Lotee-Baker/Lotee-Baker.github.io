@@ -210,7 +210,8 @@ The complete MELFA-BASIC IV program used to control the Mitsubishi industrial ro
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 20px;
-  width: 100%;
+  width: 200%;
+  margin-left: -50%;
   margin-top: 25px;
   align-items: start;
 }
