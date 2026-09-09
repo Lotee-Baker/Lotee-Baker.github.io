@@ -199,3 +199,364 @@ Working from the individual robot sequence through PLC programming and finally f
 
 {% include gallery caption="Industrial Automation Assembly Line Project Gallery" %}
 
+---
+
+## Appendix: Mitsubishi MELFA-BASIC IV Robot Program
+
+The complete MELFA-BASIC IV program used to control the Mitsubishi industrial robot is shown below. The program is divided into three columns, with notes explaining the purpose of each section and the logic behind the robot's movements.
+
+<style>
+.robot-appendix-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+  width: 100%;
+  margin-top: 25px;
+  align-items: start;
+}
+
+.robot-appendix-column {
+  min-width: 0;
+}
+
+.robot-appendix-column h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 1.05em;
+  text-align: center;
+}
+
+.robot-appendix-column pre {
+  margin: 8px 0 10px 0 !important;
+  padding: 10px !important;
+  font-size: 0.68em !important;
+  line-height: 1.35 !important;
+  white-space: pre-wrap !important;
+  overflow-x: visible !important;
+  word-break: normal !important;
+  border-radius: 4px;
+}
+
+.robot-appendix-column code {
+  white-space: pre-wrap !important;
+  font-size: inherit !important;
+}
+
+.robot-code-note {
+  font-size: 0.78em;
+  line-height: 1.45;
+  margin: 5px 2px 18px 2px;
+}
+
+@media (max-width: 900px) {
+  .robot-appendix-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .robot-appendix-column pre {
+    font-size: 0.78em !important;
+  }
+
+  .robot-code-note {
+    font-size: 0.9em;
+  }
+}
+</style>
+
+
+<div class="robot-appendix-grid">
+
+
+<!-- ========================================================= -->
+<!-- COLUMN 1 -->
+<!-- ========================================================= -->
+
+<div class="robot-appendix-column">
+
+<h3>1. Initialization & Base Alignment</h3>
+
+<pre><code>10 DEF POS PAUX
+20 DEF POS PAUX2
+30 DEF IO PORT10 = BIT, 10
+40 DEF IO PORT8 = BIT, 8
+50 DEF IO PORT7 = BIT, 7
+60 DEF IO FINISH = BIT, 5
+70 DEF IO PORT6 = BIT, 6
+80 OVRD 20</code></pre>
+
+<p class="robot-code-note">
+Lines 10–80 define the input/output ports and position variables used throughout the program. The robot operating speed is also set to 20%.
+</p>
+
+
+<pre><code>90 FINISH = 0
+100 HOPEN 1
+110 MOV P1
+
+120
+130 WHILE (PORT8 = 0)
+140 DLY 1
+150 WEND
+160</code></pre>
+
+<p class="robot-code-note">
+The FINISH output is reset, the gripper is opened, and the robot moves to its idle position P1. The robot then waits until PORT8 detects that a base has arrived before beginning the assembly sequence.
+</p>
+
+
+<pre><code>170 WHILE (PORT8)
+180 MOV P10, -10
+190 MOV P10
+200 HCLOSE 1
+210 MOV P10, -10
+220 MOV P1
+230 MOV P20, -10
+240 MOV P20
+250 HOPEN 1
+260 MOV P1
+270 WEND</code></pre>
+
+<p class="robot-code-note">
+The robot approaches base pickup position P10 using a vertical offset to reduce the risk of collision, closes the gripper, and returns through the idle position. It then moves to P20 and releases the base. The WHILE loop allows the robot to repeat the pickup if PORT8 still detects the base, indicating that the first pickup was unsuccessful.
+</p>
+
+
+<pre><code>280 MOV P21, -10
+290 MOV P21, 3
+300 HCLOSE 1
+310 MOV P21, -10</code></pre>
+
+<p class="robot-code-note">
+The robot returns to the base at P21 and picks it up using the center gripper position so that its orientation can be determined.
+</p>
+
+
+<pre><code>320 MOV P23
+330 PAUX = P23
+340 DLY 1</code></pre>
+
+<p class="robot-code-note">
+The base is moved to orientation-detection position P23. A one-second delay gives the sensor time to stabilize, and the current robot position is stored in the variable PAUX.
+</p>
+
+
+<pre><code>350 WHILE (PORT10)
+360 PAUX.A = PAUX.A + 0.2
+370 MOV PAUX
+380 WEND
+
+390 PAUX2 = P24
+400 PAUX2.A = PAUX.A + 0.2
+410 MOV PAUX2, -25
+420 MOV PAUX2
+430 HOPEN 1
+440 MOV P1
+
+450
+460
+470
+480</code></pre>
+
+<p class="robot-code-note">
+While PORT10 remains active, the robot rotates the base in 0.2 radian increments. Once the sensor reaches the locating feature on the part, PORT10 changes state and the loop ends. The detected orientation is stored and transferred to PAUX2 with an additional 0.2 radian offset. The robot then places the correctly oriented base at P24 and returns to idle.
+</p>
+
+</div>
+
+
+
+<!-- ========================================================= -->
+<!-- COLUMN 2 -->
+<!-- ========================================================= -->
+
+<div class="robot-appendix-column">
+
+<h3>2. Spring & Top Assembly</h3>
+
+<pre><code>490 'SPRING
+
+500 MOV P40, -10
+510 MOV P40, 3
+520 HCLOSE 1
+530 MOV P40, -30
+540 MOV P41, -30
+550 MOV P41
+560 HOPEN 1
+570 MOV P41, -30
+580 MOV P1
+
+590
+600
+610
+620
+630</code></pre>
+
+<p class="robot-code-note">
+The robot picks up the spring at P40 and places it inside the base at P41. Larger vertical offsets are used during this sequence because the spring must be inserted down into the base rather than simply placed on top of it.
+</p>
+
+
+<pre><code>640 'TOP
+
+650 WHILE (PORT6 = 0)
+660 HOPEN 1
+670 MOV P55
+680 MOV P50, -10
+690 MOV P50, 4
+700 HCLOSE 1
+710 MOV P50, -10
+720 MOV P55
+730 MOV P60, -30
+740 MOV P60, -3
+750 WEND
+
+760
+770
+780
+790
+800</code></pre>
+
+<p class="robot-code-note">
+PORT6 is connected to the sensor used to verify that the top has been successfully removed from its pickup location. The robot approaches P50 through midpoint P55, closes the gripper, and moves toward the orientation-detection position. If the sensor indicates that the top was not successfully picked up, the robot repeats the sequence.
+</p>
+
+
+<pre><code>810 'PLACE TOP
+
+820 PAUX = P60
+830 DLY 1
+840 ON PORT7 GOTO 90</code></pre>
+
+<p class="robot-code-note">
+The robot stores the top's current position in PAUX and pauses briefly to allow the orientation sensor to stabilize. PORT7 provides an additional condition that can return the robot to the beginning of the program if required.
+</p>
+
+
+<pre><code>850 WHILE (PORT10 = 0)
+860 PAUX.A = PAUX.A - 0.1
+870 MOV PAUX, -3
+880 WEND</code></pre>
+
+<p class="robot-code-note">
+The robot incrementally rotates the top while monitoring PORT10. The top is rotated in 0.1 radian increments until the sensor detects the locating feature. The opposite rotation direction is used from the base-alignment operation to avoid reaching the robot's rotational limit.
+</p>
+
+
+<pre><code>890 PAUX2 = P24
+900 PAUX2.A = PAUX.A - 0.1
+910 MOV PAUX, -20
+920 MOV PAUX2, -25
+930 MOV PAUX2, 1
+940 PAUX2.A = PAUX2.A + 1.9
+950 MOV PAUX2, 1
+960 HOPEN 1
+970 MOV P1
+
+980
+990
+1000</code></pre>
+
+<p class="robot-code-note">
+The detected top orientation is transferred to PAUX2 at the base assembly position P24. The robot moves the top into position and then rotates it approximately 1.9 radians to secure the top onto the base. Once the top has been installed, the gripper opens and the robot returns to its idle position.
+</p>
+
+</div>
+
+
+
+<!-- ========================================================= -->
+<!-- COLUMN 3 -->
+<!-- ========================================================= -->
+
+<div class="robot-appendix-column">
+
+<h3>3. Finished Part & Cycle Reset</h3>
+
+<pre><code>1010 'DROPOFF
+
+1020 MOV P63, -20
+1030 MOV P63
+1040 HCLOSE 1
+
+1050
+
+1060 MOV P63, -20
+
+1070
+
+1080 MOV P1, -20
+1090 MOV P64, -20
+1100 MOV P64
+1110 HOPEN 1
+1120 MOV P64, -10
+1130 MOV P1
+
+1140
+1150</code></pre>
+
+<p class="robot-code-note">
+The completed assembly is picked up at P63 using the back gripper and transferred to final drop-off position P64. The robot moves through an offset from the idle position because the final drop-off location is relatively high. This intermediate movement provides additional clearance and reduces the possibility of a collision.
+</p>
+
+
+<pre><code>1160 FINISH = 1
+1170 DLY 1
+1180 GOTO 90</code></pre>
+
+<p class="robot-code-note">
+Once the completed part has been delivered, FINISH is set to 1. This digital output tells the Siemens PLC that the robot has completed its assembly cycle so that the PLC can turn off the servos and signal that a finished part is available.
+</p>
+
+<p class="robot-code-note">
+The one-second delay gives the PLC enough time to reliably read the FINISH signal. The program then returns to line 90, resets the completion signal, opens the gripper, returns to the idle position, and waits for the next base to arrive.
+</p>
+
+
+<h3>Program Sequence</h3>
+
+<p class="robot-code-note">
+The complete robot sequence can be summarized as:
+</p>
+
+<p class="robot-code-note">
+<strong>
+Detect Base → Pick Up Base → Determine Orientation → Position Base → Insert Spring → Pick Up Top → Determine Orientation → Install & Rotate Top → Pick Up Completed Assembly → Transfer to Next Station → Signal PLC → Reset
+</strong>
+</p>
+
+
+<h3>Key Program Elements</h3>
+
+<p class="robot-code-note">
+<strong>PAUX / PAUX2:</strong> Temporary position variables used to modify and store detected component orientations.
+</p>
+
+<p class="robot-code-note">
+<strong>PORT8:</strong> Detects the incoming base and confirms successful pickup.
+</p>
+
+<p class="robot-code-note">
+<strong>PORT10:</strong> Provides feedback during base and top orientation detection.
+</p>
+
+<p class="robot-code-note">
+<strong>PORT6:</strong> Verifies successful pickup of the top.
+</p>
+
+<p class="robot-code-note">
+<strong>FINISH:</strong> Communicates completion of the robot cycle back to the Siemens PLC.
+</p>
+
+<p class="robot-code-note">
+<strong>HOPEN / HCLOSE:</strong> Commands the pneumatic robot gripper to open and close.
+</p>
+
+<p class="robot-code-note">
+<strong>MOV:</strong> Commands movement between taught robot positions and calculated position offsets.
+</p>
+
+</div>
+
+
+</div>
+
