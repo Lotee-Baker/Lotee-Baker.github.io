@@ -4,8 +4,8 @@ excerpt: "Programming and integrating a Siemens PLC and Mitsubishi industrial ro
 categories:
   - Mechatronics & Automation
 header:
-  image: /assets/img/AssemblyCell.jpeg
-  teaser: /assets/img/AssemblyCell.jpeg
+  image: /assets/img/Auto1.jpeg
+  teaser: /assets/img/Auto1.jpeg
 ---
 
 **Role:** Mechanical Engineering Student, Group 4  
