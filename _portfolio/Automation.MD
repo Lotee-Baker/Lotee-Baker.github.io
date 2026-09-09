@@ -3,11 +3,27 @@ title: "Industrial Automation Assembly Line"
 excerpt: "Programming and integrating a Siemens PLC and Mitsubishi industrial robot as part of a multi-station automated production line"
 categories:
   - Mechatronics & Automation
-Classes: wide
 header:
   image: /assets/img/Auto1.jpeg
   teaser: /assets/img/Auto1.jpeg
 ---
+<style>
+@media (min-width: 1024px) {
+  .page {
+    width: 100% !important;
+    padding-right: 0 !important;
+    float: none !important;
+  }
+
+  .page__inner-wrap {
+    width: 100% !important;
+  }
+
+  .page__content {
+    width: 100% !important;
+  }
+}
+</style>
 
 **Role:** Mechanical Engineering Student, Group 4  
 **Focus:** Industrial Automation, PLC Programming & Robotics  
