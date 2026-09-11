@@ -7,10 +7,6 @@ header:
   image: /assets/img/Auto1.jpeg
   teaser: /assets/img/Auto1.jpeg
 gallery:
-  - url: /assets/img/Auto1.jpeg
-    image_path: /assets/img/Auto1.jpeg
-    alt: "Team 4 Production Line Section"
-    title: "Team 4 Production Line Section"
   - url: /assets/img/Auto3.jpeg
     image_path: /assets/img/Auto3.jpeg
     alt: "Cell Pre Assembly"
@@ -23,6 +19,10 @@ gallery:
     image_path: /assets/img/Auto2.jpeg
     alt: "Assembled Cell"
     title: "Assembled Cell"
+  - url: /assets/img/Auto1.jpeg
+    image_path: /assets/img/Auto1.jpeg
+    alt: "Team 4 Production Line Section"
+    title: "Team 4 Production Line Section"
   - url: /assets/img/Auto15.mp4
     image_path: /assets/img/Auto15.mp4
     alt: "Top Dispensing"
