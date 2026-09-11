@@ -19,21 +19,57 @@
 <figure class="{{ gallery_layout }} {{ include.class }}">
   {% for img in gallery %}
     <div style="display:inline-block; width:30%; margin:1%; text-align:center; vertical-align:top;">
-      {% if img.url %}
-        <a href="{{ img.url | relative_url }}">
+
+      {% if img.image_path contains '.mp4' %}
+
+        {% if img.url %}
+          <a href="{{ img.url | relative_url }}">
+            <video
+              autoplay
+              muted
+              loop
+              playsinline
+              preload="metadata"
+              style="max-width:100%; height:auto;">
+              <source src="{{ img.image_path | relative_url }}" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </a>
+        {% else %}
+          <video
+            autoplay
+            muted
+            loop
+            playsinline
+            preload="metadata"
+            style="max-width:100%; height:auto;">
+            <source src="{{ img.image_path | relative_url }}" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        {% endif %}
+
+      {% else %}
+
+        {% if img.url %}
+          <a href="{{ img.url | relative_url }}">
+            <img src="{{ img.image_path | relative_url }}"
+                 alt="{% if img.alt %}{{ img.alt }}{% endif %}"
+                 style="max-width:100%; height:auto;">
+          </a>
+        {% else %}
           <img src="{{ img.image_path | relative_url }}"
                alt="{% if img.alt %}{{ img.alt }}{% endif %}"
                style="max-width:100%; height:auto;">
-        </a>
-      {% else %}
-        <img src="{{ img.image_path | relative_url }}"
-             alt="{% if img.alt %}{{ img.alt }}{% endif %}"
-             style="max-width:100%; height:auto;">
+        {% endif %}
+
       {% endif %}
 
       {% if img.title %}
-        <div style="font-size:0.85rem; color:#555; margin-top:4px;">{{ img.title }}</div>
+        <div style="font-size:0.85rem; color:#555; margin-top:4px;">
+          {{ img.title }}
+        </div>
       {% endif %}
+
     </div>
   {% endfor %}
 
