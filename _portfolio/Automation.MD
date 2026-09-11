@@ -35,8 +35,8 @@ gallery:
     image_path: /assets/img/Auto13.jpeg
     alt: "Full Assembly Line"
     title: "Full Assembly Line"
-  - url: /assets/img/Auto14.jpeg
-    image_path: /assets/img/Auto14.jpeg
+  - url: /assets/img/Auto14.png
+    image_path: /assets/img/Auto14.png
     alt: "State Diagram"
     title: "State Diagram"
 ---
