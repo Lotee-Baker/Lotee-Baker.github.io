@@ -140,7 +140,10 @@ My biggest takeaway was understanding that industrial automation is really about
 
 Completing the project while studying abroad also made the experience especially valuable because I strengthened both my **technical skills and my ability to work effectively on an international engineering team**.
 
-{% include gallery caption="Industrial Automation Assembly Line Project Gallery" %}
+---
+### Gallary
+
+{% include gallery caption="Industrial Automation Assembly Line Project" %}
 
 ---
 ## Appendix
