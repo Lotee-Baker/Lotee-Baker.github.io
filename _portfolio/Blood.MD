@@ -9,6 +9,24 @@ header:
   teaser: /assets/img/BloodWarmer1.jpeg
 ---
 
+<style>
+@media (min-width: 1024px) {
+  .page {
+    width: 100% !important;
+    padding-right: 0 !important;
+    float: none !important;
+  }
+
+  .page__inner-wrap {
+    width: 100% !important;
+  }
+
+  .page__content {
+    width: 100% !important;
+  }
+}
+</style>
+
 **Role:** Mechanical Engineering Student, Interdisciplinary Design Team  
 **Course:** How to Make Anything and Make It Matter  
 **Focus:** Human-Centered Design, Rapid Prototyping & Experimental Testing  
