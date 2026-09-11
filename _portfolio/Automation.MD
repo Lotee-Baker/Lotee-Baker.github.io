@@ -6,6 +6,39 @@ categories:
 header:
   image: /assets/img/Auto1.jpeg
   teaser: /assets/img/Auto1.jpeg
+gallery:
+  - url: /assets/img/Auto1.jpeg
+    image_path: /assets/img/Auto1.jpeg
+    alt: "Team 4 Production Line Section"
+    title: "Team 4 Production Line Section"
+  - url: /assets/img/Auto3.jpeg
+    image_path: /assets/img/Auto3.jpeg
+    alt: "Cell Pre Assembly"
+    title: "Cell Pre Assembly"
+  - url: /assets/img/Auto8.jpeg
+    image_path: /assets/img/Auto8.jpeg
+    alt: "Cell Mid Assembly"
+    title: "Cell Mid Assembly"
+  - url: /assets/img/Auto2.jpeg
+    image_path: /assets/img/Auto2.jpeg
+    alt: "Assembled Cell"
+    title: "Assembled Cell"
+  - url: /assets/img/Auto15.mp4
+    image_path: /assets/img/Auto15.mp4
+    alt: "Top Dispensing"
+    title: "Top Dispensing"
+  - url: /assets/img/Auto10.mp4
+    image_path: /assets/img/Auto10.mp4
+    alt: "Spring Dispensing"
+    title: "Spring Dispensing"
+  - url: /assets/img/Auto13.jpeg
+    image_path: /assets/img/Auto13.jpeg
+    alt: "Full Assembly Line"
+    title: "Full Assembly Line"
+  - url: /assets/img/Auto14.jpeg
+    image_path: /assets/img/Auto14.jpeg
+    alt: "State Diagram"
+    title: "State Diagram"
 ---
 <style>
 @media (min-width: 1024px) {
