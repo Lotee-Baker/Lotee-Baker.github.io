@@ -35,31 +35,29 @@ header:
 
 ## Project Overview
 
-This project started with a deceptively simple question:
+The heart of this project is one problem: 
 
-**How can we get warm blood to an injured soldier faster?**
+**Injured Ukrainian Soldiers Need Warm Blood Fast in an Unprecedented Drone War Zone**
 
-For our *How to Make Anything and Make It Matter* course, my team worked with **Tim Bongartz, Assistant Professor of Emergency Medicine and Associate Medical Director for the Metro Nashville Police Department SWAT team**, to investigate a challenge currently faced in Ukraine.
+For our *How to Make Anything and Make It Matter* course, my team partnered with **Tim Bongartz, Assistant Professor of Emergency Medicine and Associate Medical Director for the Metro Nashville Police Department SWAT team**, to investigate a challenge currently faced in Ukraine. Tim spent time on the front lines with Ukrainian soldiers and identified a core problem in their emergency medicine. Injured soldiers need warmed blood delivered faster. 
 
-Whole blood must be kept cold during storage, but transfusing very cold blood into a trauma patient can contribute to hypothermia and impair coagulation. The blood therefore needs to be warmed before it reaches an injured soldier.
+## The Goal
 
-The problem was not simply how to warm blood.
-
-The problem was **when** it was being warmed.
+Time Bongartz asked us to build a solution to reduce the time between an injured soldier's alert and the delivery of warmed blood without compromising the integrity of the blood. 
 
 ---
 
-## The Problem in Ukraine
+## The War in Ukraine
 
 The war in Ukraine has created a battlefield unlike almost any that came before it in its dependence on small unmanned aircraft.
 
-Commercial quadcopters, FPV drones, reconnaissance UAVs, and purpose-built military drones are used throughout the battlefield. Different units may use completely different aircraft, and drones are regularly modified, jammed, damaged, or shot down.
+Commercial quadcopters, FPV drones, reconnaissance UAVs, and purpose built military drones are used throughout the battlefield. Different units may use completely different aircraft, and drones are regularly modified, jammed, damaged, or shot down.
 
-That makes them more than weapons—they have also become a way of moving critical resources across areas where sending a person or vehicle may be extremely dangerous.
+These drones have also become more than weapons on the battlefield, they have also become a way of moving critical resources across areas where sending a person or vehicle may be extremely dangerous.
 
 One of those resources is **blood**.
 
-At the drone stations we studied, blood is stored refrigerated behind the front line. When a soldier needs an emergency transfusion, the existing process requires the operators to:
+At the drone stations Tim observed, blood is stored refrigerated behind the front line and when a soldier needs an emergency transfusion, the existing process requires the operators to:
 
 **Remove Blood from Refrigeration → Warm Blood → Package Blood → Load Drone → Fly to Front Line → Drop Blood to Soldiers**
 
@@ -67,7 +65,7 @@ The warming step alone can add roughly **10–12 minutes before the drone even l
 
 The blood is then placed in simple insulation such as bubble wrap and hand warmers, attached to a drone, flown toward the front, and dropped to the receiving soldiers without the drone needing to land.
 
-For a critically injured soldier experiencing severe blood loss, those extra minutes matter.
+For a critically injured soldier experiencing severe blood loss, those extra minutes can be the difference between life and death.
 
 **Ten minutes spent waiting for blood to warm can be the difference between the transfusion arriving in time or arriving too late.**
 
