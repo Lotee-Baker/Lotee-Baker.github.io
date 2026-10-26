@@ -1,6 +1,6 @@
 ---
-title: "Drone-Delivered Exothermic Blood Warmer"
-excerpt: "Developing a lightweight, battery-free blood warmer for emergency drone delivery to injured Ukrainian soldiers"
+title: "Drone Delivered Exothermic Blood Warmer"
+excerpt: "Developing a lightweight, battery free blood warmer for emergency drone delivery to injured Ukrainian soldiers"
 categories:
   - Design Engineering
   - Research and Experimental
@@ -154,7 +154,7 @@ After deciding on the two main concepts to move forward with, we performed initi
 
 For our simulated “blood,” we used a **40% glycerol and 60% water solution** inside medical grade blood bags to create comparable heat transfer behavior for testing.
 
-![Initial Testing Results](/assets/img/Blood6.jpeg)
+![Initial Testing Results](/assets/img/Blood6.png)
 
 These results led us to move forward with the **exothermic reaction concept**, as it produced a larger increase in temperature.
 
@@ -209,7 +209,7 @@ The entire assembly is then placed inside an aluminium **insulated outer bag** a
 
 After multiple tests, our most recent prototype was able to heat the simulated blood from below **8°C to above 25°C in 15 minutes or less** while remaining lightweight, simple, and completely battery free.
 
-![MRE Trial Data](/assets/img/Blood9.jpeg)
+![MRE Trial Data](/assets/img/Blood9.png)
 
 More importantly, the prototype allowed the **warming and transportation processes to happen at the same time**.
 
