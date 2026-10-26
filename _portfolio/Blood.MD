@@ -7,7 +7,7 @@ categories:
 header:
   image: /assets/img/Blood8.png
   teaser: /assets/img/Blood8.png
----
+
 gallery:
   - url: /assets/img/Blood3.png
     image_path: /assets/img/Blood3.png
@@ -29,12 +29,10 @@ gallery:
     alt: "Drones in the Ukraine War "
     title: "Ukraine War Research Research"
 
-
   - url: /assets/img/Blood12.png
     image_path: /assets/img/Blood12.png
     alt: "Inner Mesh Bag Side View"
     title: "Inner Mesh Bag Side View"
-
 ---
 
 <style>
