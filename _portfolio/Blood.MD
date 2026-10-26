@@ -54,7 +54,7 @@ header:
 
 ## Project Overview
 
-For our *How to Make Anything and Make It Matter* course, my team partnered with **Tim Bongartz** to investigate an emergency medicine challenge currently faced in Ukraine. Tim spent time with Ukrainian soldiers near the front lines and identified an opportunity to improve the emergency blood-delivery process.
+For our *How to Make Anything and Make It Matter* course, my team partnered with **Tim Bongartz** to investigate an emergency medicine challenge currently faced in Ukraine. Tim spent time with Ukrainian soldiers near the front lines and identified an opportunity to improve the emergency blood delivery process.
 
 At the heart of our project was one urgent problem:
 
@@ -74,7 +74,7 @@ One of those resources is **blood**.
 
 At drone stations behind the front line, blood is kept refrigerated until an injured soldier requires an emergency transfusion. The existing delivery process is approximately:
 
-**Remove Blood from Refrigeration → Warm Blood → Package Blood → Load Drone → Fly to Front Line → Drop Blood to Soldiers**
+**Remove Blood from Refrigeration → Warm Blood in a Water Bath → Package Blood → Load Drone → Fly to Front Line → Drop Blood to Soldiers**
 
 The warming step alone can add roughly **10–12 minutes before the drone even leaves**, but warming is important because transfusing cold blood can increase the risk of hypothermia in an already critically injured patient.
 
