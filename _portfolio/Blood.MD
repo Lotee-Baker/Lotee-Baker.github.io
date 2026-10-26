@@ -5,8 +5,8 @@ categories:
   - Design Engineering
   - Research and Experimental
 header:
-  image: /assets/img/Blood1.jpeg
-  teaser: /assets/img/Blood1.jpeg
+  image: /assets/img/Blood8.png
+  teaser: /assets/img/Blood8.png
 ---
 
 <style>
@@ -60,7 +60,7 @@ At the heart of our project was one urgent problem:
 
 ### **Injured Ukrainian Soldiers Need Warm Blood Fast in an Unprecedented Drone War Zone**
 
-![Project Team](/assets/img/Blood1.jpeg)
+![Project Team](/assets/img/Blood1.png)
 
 ---
 
@@ -110,18 +110,7 @@ This became the core of our **human-centered design process**.
 
 We identified the stakeholders, design constraints, and functional requirements that would determine whether a solution could realistically work in the field.
 
-| Design Constraint | Target |
-|---|---:|
-| Average Blood Bag Volume | ~400 mL |
-| Drone Payload Capacity | 2–3 kg |
-| Blood Temperature Before Degradation | ~42°C |
-
-| Functional Requirement | Design Need |
-|---|---|
-| **Autonomous** | Should not depend on specific replacement parts such as batteries |
-| **Rapid & Effective** | Must warm blood during the drone transport window |
-| **Low-Cost / Single Use** | Must be reproducible for use in a high-risk environment |
-| **Lightweight** | Should minimize impact on the drone's payload capacity |
+![Project Team](/assets/img/Blood2.png)
 
 Conversations with our project sponsor changed several of our early assumptions.
 
@@ -145,7 +134,7 @@ Once we clearly defined the problem, each team member independently generated po
 
 We then grouped the ideas by similarity and used **dot voting** to identify the concepts that best addressed our functional requirements and design constraints.
 
-![Ideation and Dot Voting](/assets/img/Blood2.jpeg)
+![Ideation and Dot Voting](/assets/img/Blood3.png)
 
 Two concepts emerged as our strongest options.
 
@@ -166,10 +155,7 @@ The design had several advantages:
 
 However, we had concerns about **weight, heat retention, and dependence on access to a microwave**.
 
-<div class="blood-two-column">
-  <img src="/assets/img/Blood3.jpeg" alt="Grain-filled blood warmer concept">
-  <img src="/assets/img/Blood4.jpeg" alt="Grain-filled heating material research">
-</div>
+![Project Team](/assets/img/Blood4.png)
 
 ---
 
@@ -185,7 +171,7 @@ The main challenge became **temperature control**.
 
 The system needed to generate enough heat to warm the blood quickly without allowing the blood to overheat and potentially degrade.
 
-![Exothermic Reaction Sleeve Concept](/assets/img/Blood5.jpeg)
+![Exothermic Reaction Sleeve Concept](/assets/img/Blood5.png)
 
 ---
 
@@ -195,7 +181,7 @@ After selecting our two strongest concepts, we began experimentally comparing th
 
 We used **two thermocouples connected to a DAQ board** to record temperature during each test. Instead of real blood, we filled medical-grade blood bags with a **40% glycerol and 60% water solution** to approximate the thermal behavior required for our testing.
 
-![Initial Testing Results](/assets/img/Blood6.jpeg)
+![Initial Testing Results](/assets/img/Blood6.png)
 
 The grain-filled microwave pouch increased the simulated blood temperature by approximately **10°C**, while the reusable HotSnapZ hand warmers produced an increase of approximately **17°C**.
 
@@ -219,7 +205,7 @@ Rather than inventing an entirely new heat source, we began adapting an existing
 
 We fabricated a **plastic mesh pouch** capable of holding two MRE heaters and one blood bag. The mesh was durable and water resistant while still allowing heat to transfer toward the blood bag without placing the heaters directly against it.
 
-![Blood Warmer Prototype Development](/assets/img/Blood7.jpeg)
+![Blood Warmer Prototype Development](/assets/img/Blood7.png)
 
 ---
 
@@ -227,10 +213,7 @@ We fabricated a **plastic mesh pouch** capable of holding two MRE heaters and on
 
 Our final proof-of-concept used a **three-layer system** centered around the water-activated exothermic reaction of flameless ration heaters.
 
-<div class="blood-two-column">
-  <img src="/assets/img/Blood8.jpeg" alt="Blood warmer components">
-  <img src="/assets/img/Blood9.jpeg" alt="Assembled blood warmer prototype">
-</div>
+![Project Team](/assets/img/Blood8.png)
 
 ### Layer 1: Mesh Heating Pouch
 
@@ -261,7 +244,7 @@ The package can then be attached underneath the drone and transported toward the
 
 After multiple prototype iterations and tests, our final design consistently warmed the simulated blood from below **8°C to above 25°C in 15 minutes or less** while remaining lightweight, simple, and completely battery-free.
 
-![MRE Blood Warmer Test Results](/assets/img/Blood10.jpeg)
+![MRE Blood Warmer Test Results](/assets/img/Blood10.png)
 
 More importantly, the system allowed **warming and transportation to happen at the same time**.
 
@@ -326,12 +309,10 @@ This project was an **academic proof of concept rather than a clinically validat
 As part of the human-centered design process, we researched the variety of drones operating in Ukraine and the conditions that influence how equipment can be transported and resupplied.
 
 <div class="blood-two-column">
-  <img src="/assets/img/Blood11.jpeg" alt="Types of drones used in Ukraine">
-  <img src="/assets/img/Blood12.jpeg" alt="Drone warfare research in Ukraine">
+  <img src="/assets/img/Blood11.png" alt="Types of drones used in Ukraine">
+  <img src="/assets/img/Blood12.png" alt="Drone warfare research in Ukraine">
 </div>
 
 The variety of FPV drones, reconnaissance aircraft, and modified commercial quadcopters reinforced an important design requirement: our solution could not depend on one specific drone platform.
 
-We also examined the existing blood-warming process used in the field to understand what our design would need to improve.
 
-![Existing Blood Warming Method](/assets/img/Blood13.jpeg)
