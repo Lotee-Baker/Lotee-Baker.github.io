@@ -8,6 +8,34 @@ header:
   image: /assets/img/Blood8.png
   teaser: /assets/img/Blood8.png
 ---
+gallery:
+  - url: /assets/img/Blood3.png
+    image_path: /assets/img/Blood3.png
+    alt: "Blood Warmer Ideation Process"
+    title: "Ideation Process"
+
+  - url: /assets/img/Blood8.png
+    image_path: /assets/img/Blood8.png
+    alt: "Final Blood Warmer Components"
+    title: "Final Blood Warmer Components"
+
+  - url: /assets/img/Blood10.png
+    image_path: /assets/img/Blood10.png
+    alt: "Drones Used in Ukraine"
+    title: "Drone Research"
+
+  - url: /assets/img/Blood11.png
+    image_path: /assets/img/Blood11.png
+    alt: "Drones in the Ukraine War "
+    title: "Ukraine War Research Research"
+
+
+  - url: /assets/img/Blood12.png
+    image_path: /assets/img/Blood12.png
+    alt: "Inner Mesh Bag Side View"
+    title: "Inner Mesh Bag Side View"
+
+---
 
 <style>
 @media (min-width: 1024px) {
@@ -259,17 +287,4 @@ I am proud to say that this project has since been **further pursued by Vanderbi
 
 ---
 
-## Supplemental Research
-
-As part of the project, we also researched the different types of drones being used in Ukraine and how drone warfare affects the design requirements of the blood warmer.
-
-<div class="blood-two-column">
-  <img src="/assets/img/Blood11.jpeg" alt="Different combat drones used in Ukraine">
-  <img src="/assets/img/Blood12.jpeg" alt="Drone warfare research">
-</div>
-
-Because different Ukrainian units may operate completely different aircraft, our solution needed to remain **independent of any specific drone platform**.
-
-We also reviewed the existing heating method used in the field to understand exactly what parts of the process our design needed to improve.
-
-![Current Blood Heating Method](/assets/img/Blood13.jpeg)
+{% include gallery caption="Drone-Delivered Exothermic Blood Warmer Project Gallery" %}
