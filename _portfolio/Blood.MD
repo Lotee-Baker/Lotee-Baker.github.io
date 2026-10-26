@@ -1,6 +1,6 @@
 ---
 title: "Drone-Delivered Exothermic Blood Warmer"
-excerpt: "Using human-centered design to develop a lightweight, battery-free blood warmer for emergency drone delivery in Ukraine"
+excerpt: "Developing a lightweight, battery-free blood warmer for emergency drone delivery to injured Ukrainian soldiers"
 categories:
   - Design Engineering
   - Research and Experimental
@@ -54,9 +54,7 @@ header:
 
 ## Project Overview
 
-For our *How to Make Anything and Make It Matter* course, my team partnered with **Tim Bongartz** to investigate an emergency medicine challenge currently faced in Ukraine. Tim spent time with Ukrainian soldiers near the front lines and identified an opportunity to improve the emergency blood delivery process.
-
-At the heart of our project was one urgent problem:
+For our *How to Make Anything and Make It Matter* course, my team partnered with **Tim Bongartz** to investigate emergency medicine challenges currently faced in Ukraine. Tim spent time with Ukrainian soldiers near the front lines and identified a core area for improvement in their emergency medicine process that became the heart of our project:
 
 ### **Injured Ukrainian Soldiers Need Warm Blood Fast in an Unprecedented Drone War Zone**
 
@@ -66,94 +64,71 @@ At the heart of our project was one urgent problem:
 
 ## Project Background
 
-The war in Ukraine has created a battlefield unlike almost any that came before it in its dependence on small unmanned aircraft. Different units may use completely different drones, and those aircraft are regularly modified, jammed, damaged, or shot down.
+The war in Ukraine has created a battlefield unlike almost any that came before it in its dependence on small unmanned aircraft. Different units may use completely different aircraft, and drones are regularly modified, jammed, damaged, or shot down.
 
-Drones are not only used for reconnaissance and combat. They can also transport critical medical supplies into areas where sending a person or vehicle may be extremely dangerous.
+These drones are also used to deliver warmed blood to injured soldiers in otherwise unreachable areas.
 
-One of those resources is **blood**.
-
-At drone stations behind the front line, blood is kept refrigerated until an injured soldier requires an emergency transfusion. The existing delivery process is approximately:
+At the drone stations, blood is refrigerated behind the front line. When a soldier needs an emergency transfusion, the existing process requires the operators to:
 
 **Remove Blood from Refrigeration → Warm Blood in a Water Bath → Package Blood → Load Drone → Fly to Front Line → Drop Blood to Soldiers**
 
-The warming step alone can add roughly **10–12 minutes before the drone even leaves**, but warming is important because transfusing cold blood can increase the risk of hypothermia in an already critically injured patient.
+The warming step alone can add roughly **10–12 minutes before the drone even leaves**, but it is essential to reduce the risk of hypothermia for the injured soldier.
 
-Once warmed, the blood is typically wrapped in simple insulation with hand warmers, attached to a drone, flown toward the front, and dropped to the receiving soldiers without requiring the drone to land.
+Once warmed, the blood is placed in simple bubble wrap insulation with hand warmers, attached to a drone, flown toward the front, and dropped to the receiving soldiers without the drone needing to land.
 
-For a soldier experiencing severe blood loss, those extra minutes can be critical.
+For a critically injured soldier experiencing severe blood loss, those extra minutes can be the difference between life and death.
 
-**Ten minutes spent waiting for blood to warm can be the difference between the transfusion arriving in time or arriving too late.**
+### **Ten minutes spent waiting for blood to warm can be the difference between the transfusion arriving in time or arriving too late.**
 
 ---
 
 ## Goal
 
-Our challenge was to reduce the time between a soldier requesting blood and receiving it by **combining blood warming and drone transportation into one process**.
+To reduce the time between when a soldier calls for blood and receives it by drone, we were asked to **combine the blood warming and transportation processes into one**.
 
-Instead of waiting for the blood to warm before launch, the drone could leave almost immediately while the blood warmed during the flight.
+By combining these two processes, the drone could leave almost immediately while the blood warmed in the air.
 
-### Existing Process
+Rather than beginning with a technology we wanted to use, we started by understanding the people who would interact with the device. We had to accurately identify our **stakeholders, design constraints, and functional requirements**.
 
-**Cold Blood → Wait to Warm → Package → Drone Flight → Patient**
-
-### Our Goal
-
-**Cold Blood → Activate Warmer → Warm During Drone Flight → Patient**
-
-Rather than beginning with a technology we wanted to use, we first focused on understanding the people who would interact with the device and the environment in which it would operate.
-
-This became the core of our **human-centered design process**.
-
----
-
-## Human-Centered Design
-
-We identified the stakeholders, design constraints, and functional requirements that would determine whether a solution could realistically work in the field.
+This is the core of **human centered design**.
 
 ![Project Team](/assets/img/Blood2.png)
 
 Conversations with our project sponsor changed several of our early assumptions.
 
-Initially, we considered powered systems using heaters, sensors, batteries, and electronic controls. From a traditional engineering perspective, these solutions offered excellent temperature control.
+For example, we originally considered powered systems with heaters, sensors, batteries, and electronic controls. From a traditional engineering perspective, these offered excellent temperature control.
 
-In a war zone, however, every additional component is something that can be **lost, damaged, unavailable, or impossible to replace**.
+From the perspective of someone operating in a war zone, however, every additional component was another component that could be **lost, damaged, unavailable, or impossible to replace**.
 
-That led us to a better question:
+The better question became:
 
 ### **How can we remove as much complexity as possible?**
 
-Taking these constraints into account, we established our final design goal:
+With all of this taken into account, we set our goal:
 
-> **Develop a battery-free device that can warm blood from approximately 4°C to at least 25°C during a 10-minute drone flight while weighing less than 2 kg, reclaiming the 10–12 minutes currently spent warming blood before launch.**
+> **Develop a battery-less device that can warm blood from approximately 4°C to a minimum of 25°C during a 10 minute drone flight while weighing under 2 kilograms, reclaiming those valuable 10–12 minutes.**
 
 ---
 
 ## Ideate Phase
 
-Once we clearly defined the problem, each team member independently generated potential solutions using sticky notes.
+Once we clearly defined our goal, we individually came up with multiple ideas on sticky notes, separated them into categories, and used the **dot-voting method** to identify our favorite ideas.
 
-We then grouped the ideas by similarity and used **dot voting** to identify the concepts that best addressed our functional requirements and design constraints.
+![Ideate Phase](/assets/img/Blood3.png)
 
-![Ideation and Dot Voting](/assets/img/Blood3.png)
-
-Two concepts emerged as our strongest options.
+Two concepts stood out as our strongest options.
 
 ---
 
-## Top Concept One: Grain-Filled Microwave Pouch
+## Top Concept One: Grain Filled Microwave Pouch
 
-Our first concept took inspiration from reusable microwavable heating pads.
+This device took inspiration from reusable microwavable heating pads that are already on the market.
 
-Instead of a traditional rectangular heating pad, the design would act as an insulated pouch capable of holding two blood bags. Materials such as grain or clay beads would be heated before use, retaining heat while also providing cushioning during the drone flight.
+However, instead of a rectangular heating pad, it would be a pouch that could contain two blood bags, retain heat, and cushion the blood bags during their drone journey.
 
-The design had several advantages:
+This solution would be easily reproducible using common materials such as grain, clay beads, and fabric, while also providing padding for the blood bags during transportation.
 
-- Simple construction
-- Easily available materials
-- Reusable
-- Added impact protection for the blood bags
-
-However, we had concerns about **weight, heat retention, and dependence on access to a microwave**.
+However, we had concerns about **weight, heat retention, and dependence on a microwave**.
 
 ![Project Team](/assets/img/Blood4.png)
 
@@ -161,92 +136,82 @@ However, we had concerns about **weight, heat retention, and dependence on acces
 
 ## Top Concept Two: Exothermic Reaction Sleeve
 
-Our second concept used a sealed pouch containing an **activated exothermic heating system**.
+Our second concept was a sealed pouch containing an activated **exothermic sleeve**.
 
-The blood bag would sit between two heating panels, allowing heat to transfer into the blood during transportation.
+This simple sleeve would be composed of two panels that quickly heat the blood bag placed between them.
 
-Unlike the microwave pouch, an exothermic heater could be activated almost immediately and continue generating heat throughout the drone flight without requiring electrical power.
+Unlike the first concept, this solution could be activated almost instantly and would continue producing heat throughout the drone's flight.
 
-The main challenge became **temperature control**.
-
-The system needed to generate enough heat to warm the blood quickly without allowing the blood to overheat and potentially degrade.
+However, with this solution, we had to make sure that the blood would **not overheat and begin to degrade**.
 
 ![Exothermic Reaction Sleeve Concept](/assets/img/Blood5.png)
 
 ---
 
-## Initial Testing
+## Initial Testing Results
 
-After selecting our two strongest concepts, we began experimentally comparing their performance.
+After deciding on the two main concepts to move forward with, we performed initial testing using **two thermocouples connected to a DAQ board**.
 
-We used **two thermocouples connected to a DAQ board** to record temperature during each test. Instead of real blood, we filled medical-grade blood bags with a **40% glycerol and 60% water solution** to approximate the thermal behavior required for our testing.
+For our simulated “blood,” we used a **40% glycerol and 60% water solution** inside medical grade blood bags to create comparable heat transfer behavior for testing.
 
-![Initial Testing Results](/assets/img/Blood6.png)
+![Initial Testing Results](/assets/img/Blood6.jpeg)
 
-The grain-filled microwave pouch increased the simulated blood temperature by approximately **10°C**, while the reusable HotSnapZ hand warmers produced an increase of approximately **17°C**.
-
-The larger temperature increase from the chemical heating method encouraged us to continue developing the **exothermic reaction concept**.
+These results led us to move forward with the **exothermic reaction concept**, as it produced a larger increase in temperature.
 
 ---
 
 ## Developing the Design
 
-Through additional testing, we moved from reusable HotSnapZ hand warmers to **MRE flameless ration heaters**.
+Through further testing, we moved from HotSnapZ hand warmers to **MRE ration heaters**.
 
-MRE heaters offered several important advantages:
+MRE heaters were appealing because they are:
 
-- Single-use
-- Battery-free
-- Lightweight
+- Single use
+- Battery free
 - Already associated with military supply chains
-- Consistently capable of producing higher temperatures
+- Lightweight
+- Able to consistently warm the blood to higher temperatures
 
-Rather than inventing an entirely new heat source, we began adapting an existing technology for a new medical transportation application.
+After confirming the source of our exothermic reaction, we fabricated a **mesh pouch** to hold two MRE ration heaters and one blood bag.
 
-We fabricated a **plastic mesh pouch** capable of holding two MRE heaters and one blood bag. The mesh was durable and water resistant while still allowing heat to transfer toward the blood bag without placing the heaters directly against it.
+This plastic mesh was durable, water resistant, and still allowed heat to transfer into the blood bag without placing the heaters in direct contact with it, helping reduce the risk of overheating the blood.
 
-![Blood Warmer Prototype Development](/assets/img/Blood7.png)
+![Project Team](/assets/img/Blood7.png)
 
 ---
 
 ## Final Design
 
-Our final proof-of-concept used a **three-layer system** centered around the water-activated exothermic reaction of flameless ration heaters.
+Instead of designing an entirely new heating technology, we adapted an existing, inexpensive heat source to solve our problem.
+
+Our solution is a **three bag method** that uses the water triggered exothermic reaction of flameless ration heaters.
 
 ![Project Team](/assets/img/Blood8.png)
 
-### Layer 1: Mesh Heating Pouch
+The first bag is made from **white plastic mesh** and contains three compartments:
 
-The innermost bag is made from white plastic mesh and contains three compartments:
-
-- One large center compartment for the blood bag
+- One large middle compartment for the blood bag
 - Two smaller side compartments for the MRE heaters
 
-Each heater compartment uses a Velcro closure so the heaters can be inserted quickly after activation.
+The side compartments have Velcro strips so soldiers can quickly insert the MRE heaters after activating each one with approximately **10 mL of water**.
 
-Each MRE heater is activated using approximately **10 mL of water**.
+Once the mesh bag contains one blood bag and two activated MRE heaters, it is placed inside a **quilted, water-resistant pouch** to provide additional padding and insulation for the drone transportation and drop.
 
-### Layer 2: Quilted Protective Pouch
-
-Once the blood bag and two activated MRE heaters are secured in the mesh pouch, the assembly is placed inside a **quilted, water-resistant pouch**.
-
-This layer provides additional insulation and protects the blood bag during transportation and the drone drop.
-
-### Layer 3: Insulated Outer Bag
-
-The complete assembly is then placed inside an **insulated outer bag** to retain heat during flight.
-
-The package can then be attached underneath the drone and transported toward the injured soldier while the blood warms.
+The entire assembly is then placed inside an aluminium **insulated outer bag** and is ready to be attached underneath the drone and flown toward the injured soldier.
 
 ---
 
 ## Results
 
-After multiple prototype iterations and tests, our final design consistently warmed the simulated blood from below **8°C to above 25°C in 15 minutes or less** while remaining lightweight, simple, and completely battery-free.
+<video width="100%" autoplay muted loop playsinline>
+  <source src="/assets/img/Blood.mp4" type="video/mp4">
+</video>
 
-![MRE Blood Warmer Test Results](/assets/img/Blood10.png)
+After multiple tests, our most recent prototype was able to heat the simulated blood from below **8°C to above 25°C in 15 minutes or less** while remaining lightweight, simple, and completely battery free.
 
-More importantly, the system allowed **warming and transportation to happen at the same time**.
+![MRE Trial Data](/assets/img/Blood9.jpeg)
+
+More importantly, the prototype allowed the **warming and transportation processes to happen at the same time**.
 
 ### Existing Process
 
@@ -262,19 +227,7 @@ More importantly, the system allowed **warming and transportation to happen at t
 
 **Total Process:** approximately **20.5 minutes**
 
-### **Over 30% Reduction in Total Process Time**
-
-The most important result was not simply that we successfully warmed the simulated blood.
-
-We removed an entire waiting step from the emergency blood-delivery process.
-
-Instead of:
-
-**Warm → Fly**
-
-our design allows the system to:
-
-### **Warm + Fly**
+### **That represents an over 30% reduction in total process time.**
 
 ---
 
@@ -286,33 +239,37 @@ At the beginning, it was tempting to approach the problem by asking:
 
 ### **What is the best way to heat blood?**
 
-Human-centered design led us to a better question:
+Human centered design forced us to ask a better question:
 
 ### **What does the person trying to get blood to an injured soldier actually need?**
 
-The most technologically sophisticated solution was not necessarily the best solution.
+The technically most sophisticated solution was not necessarily the best solution.
 
-A battery-powered heater with sensors and precise electronic controls might perform extremely well in a laboratory, but it becomes much less useful if a damaged supply chain makes replacement batteries unavailable or if an expensive reusable device is lost with a drone.
+A battery powered heater with sensors and precise electronic controls might perform extremely well in a laboratory, but it becomes far less useful if a damaged supply line prevents someone from replacing the battery or if a drone carrying an expensive reusable device is shot down.
 
-Our final concept was intentionally simple because **simplicity itself became an engineering requirement created by the people and environment we were designing for**.
+The final concept was intentionally simple because **simplicity was an engineering requirement created by the people and environment we were designing for**.
 
-This project gave me experience with **human-centered design, stakeholder analysis, concept generation, engineering trade studies, rapid prototyping, experimental testing, thermal system design, and iterative product development**.
+This project gave me experience with **human centered design, stakeholder analysis, concept generation, engineering trade studies, rapid prototyping, experimental testing, thermal system design, and iterative product development**.
 
-More importantly, it reinforced that good engineering starts with understanding the real problem—not simply building the most technically impressive solution.
+More importantly, it reinforced that good engineering starts with understanding the real problem, not simply building the most technically impressive solution.
 
-This project was an **academic proof of concept rather than a clinically validated medical device**, and significant medical and engineering validation would be required before any real-world implementation. I am proud that the concept has since been **further pursued through Vanderbilt research**.
+This project was an **academic proof of concept rather than a clinically validated medical device**, and several important questions would still need to be addressed before real world use.
+
+I am proud to say that this project has since been **further pursued by Vanderbilt's research facilities**.
 
 ---
 
-## Additional Project Research
+## Supplemental Research
 
-As part of the human-centered design process, we researched the variety of drones operating in Ukraine and the conditions that influence how equipment can be transported and resupplied.
+As part of the project, we also researched the different types of drones being used in Ukraine and how drone warfare affects the design requirements of the blood warmer.
 
 <div class="blood-two-column">
-  <img src="/assets/img/Blood11.png" alt="Types of drones used in Ukraine">
-  <img src="/assets/img/Blood12.png" alt="Drone warfare research in Ukraine">
+  <img src="/assets/img/Blood11.jpeg" alt="Different combat drones used in Ukraine">
+  <img src="/assets/img/Blood12.jpeg" alt="Drone warfare research">
 </div>
 
-The variety of FPV drones, reconnaissance aircraft, and modified commercial quadcopters reinforced an important design requirement: our solution could not depend on one specific drone platform.
+Because different Ukrainian units may operate completely different aircraft, our solution needed to remain **independent of any specific drone platform**.
 
+We also reviewed the existing heating method used in the field to understand exactly what parts of the process our design needed to improve.
 
+![Current Blood Heating Method](/assets/img/Blood13.jpeg)
