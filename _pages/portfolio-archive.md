@@ -9,20 +9,7 @@ Welcome to my Portfolio
 
 My experience spans animatronics, prototyping, structural design, mechatronics, automation, and advanced manufacturing. My projects range from interactive show systems and industrial automation to experimental devices and hands-on mechanical design.
 
-This portfolio showcases how I apply engineering fundamentals, hands-on fabrication, and problem-solving to create solutions that are both practical and engaging.
-
-<div style="clear: both;"></div>
-
-<h2>Design Engineering</h2>
-
-{% assign design_projects = site.portfolio | where_exp: "project", "project.categories contains 'Design Engineering'" %}
-
-<div class="grid__wrapper">
-{% for project in design_projects %}
-  {% assign post = project %}
-  {% include archive-single.html type="grid" %}
-{% endfor %}
-</div>
+This portfolio showcases how I apply engineering fundamentals, hands on fabrication, and problem solving to create solutions that are both practical and engaging.
 
 <div style="clear: both;"></div>
 
@@ -32,6 +19,19 @@ This portfolio showcases how I apply engineering fundamentals, hands-on fabricat
 
 <div class="grid__wrapper">
 {% for project in manufacturing_projects %}
+  {% assign post = project %}
+  {% include archive-single.html type="grid" %}
+{% endfor %}
+</div>
+
+<div style="clear: both;"></div>
+
+<h2>Design Engineering</h2>
+
+{% assign design_projects = site.portfolio | where_exp: "project", "project.categories contains 'Design Engineering'" %}
+
+<div class="grid__wrapper">
+{% for project in design_projects %}
   {% assign post = project %}
   {% include archive-single.html type="grid" %}
 {% endfor %}
