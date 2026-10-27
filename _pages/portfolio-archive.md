@@ -7,9 +7,9 @@ classes: wide
 
 Welcome to my Portfolio
 
-My experience spans animatronics, prototyping, structural design, mechatronics, automation, and advanced manufacturing. My projects range from interactive show systems and industrial automation to experimental devices and hands-on mechanical design.
+My experience spans animatronics, prototyping, structural design, mechatronics, automation, and advanced manufacturing. My projects range from interactive show systems and industrial automation to experimental devices and hands on mechanical design.
 
-This portfolio showcases how I apply engineering fundamentals, hands on fabrication, and problem solving to create solutions that are both practical and engaging.
+This portfolio showcases how I apply engineering fundamentals, rapid prototyping, and problem solving to create solutions that are both practical and engaging.
 
 <div style="clear: both;"></div>
 
