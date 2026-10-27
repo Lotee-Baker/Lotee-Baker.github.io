@@ -5,7 +5,7 @@ categories:
   - Design Engineering
 header:
   image: /assets/img/Valve1.png
-  teaser: /assets/img/Vale1.png
+  teaser: /assets/img/Valve1.png
 ---
 ![Poster Section 1](/assets/img/Valve2.png)
 ![Poster Section 2](/assets/img/Valve3.png)
