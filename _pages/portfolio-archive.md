@@ -13,12 +13,12 @@ This portfolio showcases how I apply engineering fundamentals, hands on fabricat
 
 <div style="clear: both;"></div>
 
-<h2>Advanced Manufacturing</h2>
+<h2>Mechatronics &amp; Automation</h2>
 
-{% assign manufacturing_projects = site.portfolio | where_exp: "project", "project.categories contains 'Advanced Manufacturing'" %}
+{% assign mechatronics_projects = site.portfolio | where_exp: "project", "project.categories contains 'Mechatronics & Automation'" %}
 
 <div class="grid__wrapper">
-{% for project in manufacturing_projects %}
+{% for project in mechatronics_projects %}
   {% assign post = project %}
   {% include archive-single.html type="grid" %}
 {% endfor %}
@@ -39,12 +39,12 @@ This portfolio showcases how I apply engineering fundamentals, hands on fabricat
 
 <div style="clear: both;"></div>
 
-<h2>Mechatronics &amp; Automation</h2>
+<h2>Advanced Manufacturing</h2>
 
-{% assign mechatronics_projects = site.portfolio | where_exp: "project", "project.categories contains 'Mechatronics & Automation'" %}
+{% assign manufacturing_projects = site.portfolio | where_exp: "project", "project.categories contains 'Advanced Manufacturing'" %}
 
 <div class="grid__wrapper">
-{% for project in mechatronics_projects %}
+{% for project in manufacturing_projects %}
   {% assign post = project %}
   {% include archive-single.html type="grid" %}
 {% endfor %}
