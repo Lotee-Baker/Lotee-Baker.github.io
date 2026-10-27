@@ -15,10 +15,10 @@ Expected Graduation: May 2027
 
 ## Professional Experience 
 
-### System Engineering Intern 
+### Show Systems Engineering Intern 
 **Universal Creative** | Orlando, FL             
 *June 2026 - August 2026*
-- Created SolidWorks models and manufacturing drawings, helping bring large show action equipment back into show after more than 8 months out of show.
+- Created SolidWorks models and manufacturing drawings, helping bring a piece of large show action equipment back into show after more than 8 months out of show.
 - Wrote guidance documentation for vibration testing of onboard and show action equipment used across Universal Creative, including taking vibration data, interpreting vibrations, designing against vibrations, and accurately prescribing shaker table test procedures.
 - Worked within a team to design, fabricate, and present an animated prop mockup for use in future projects. My responsibilities included operating a 6-axis robot and prototyping and fabricating a custom connection between the robot and the animated prop.
 
@@ -52,15 +52,11 @@ Expected Graduation: May 2027
 *May 2024 – August 2024*  
 - Repaired and maintained electrical systems in laser tag vests, resolving complex issues efficiently.  
 - Designed, fabricated, and installed a **custom animatronic**, blending engineering and storytelling to enhance player experience.
-‭
-
-## Technical Skills
-
-Soldering | Python | Excel | Written Communication | 3D Printing | Problem solving | Verbal Communication |‬‭ Chemical and‬
-‭ Physical Safety for Research Labs Training | 3D Slicer | Laser Cutting | SolidWorks‬‭ | Microsoft Office Programs‬‭ | Detail Oriented |‬
+‭‬
 ‭
 * Digital Fabrication Tools 
   * Fusion 360
   * Solidworks
   * AutoCAD
   * Revit
+  * SolidEdge
