@@ -17,18 +17,18 @@ excerpt: "Hello, My name is Lotee Baker and I am a rising senior at Vanderbilt U
 
   <div style="border: 1px solid #ddd; border-radius: 6px; overflow: hidden; background: #fff;">
 
-    <a href="https://lotee-baker.github.io/portfolio/Zombie/">
-      <img src="/assets/img/Zombie4.gif" alt="Zombie Animatronic" style="width: 100%; height: 420px; object-fit: cover; display: block;">
+    <a href="https://lotee-baker.github.io/portfolio/Automation/">
+      <img src="/assets/img/Auto1.jpeg" alt="Industrial Automation Assembly Line" style="width: 100%; height: 420px; object-fit: cover; display: block;">
     </a>
 
     <div style="padding: 20px;">
-      <h2>Zombie Animatronic</h2>
+      <h2>Industrial Automation Assembly Line</h2>
 
       <p>
-        A custom zombie animatronic addition to FlagTag AZ's laser tag arena.
+        Programming and integrating a Siemens PLC and Mitsubishi industrial robot as part of a multi-station automated production line.
       </p>
 
-      <a href="https://lotee-baker.github.io/portfolio/Zombie/" class="btn btn--primary">
+      <a href="https://lotee-baker.github.io/portfolio/Automation/" class="btn btn--primary">
         View Project
       </a>
     </div>
