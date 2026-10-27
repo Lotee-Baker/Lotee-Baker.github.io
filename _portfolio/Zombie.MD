@@ -3,7 +3,6 @@ title: "Zombie Animatronic"
 excerpt: "A Zombie Animatronic Addition to Flag Tag AZ's laser tag arena"
 categories:
   - Show Systems 
-  - Mechatronics & Automation
   - Design Engineering
 header:
   image: /assets/img/Zombie4.gif
