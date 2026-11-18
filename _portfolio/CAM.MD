@@ -348,3 +348,8 @@ A small mistake when setting the machine origin can shift an entire operation. A
 Working with both wood and aluminum gave me experience with **Fusion 360 CAM, CNC setup, work coordinate systems, design for manufacturing, facing, pocketing, contouring, roughing, finishing, drilling, tapping, tool selection, machining boundaries, tool engagement, and toolpath simulation**.
 
 The biggest lesson I took away is that successful CNC machining depends on understanding the relationship between the **CAD geometry, digital toolpath, cutting tool, material, and physical machine**.
+---
+
+## Project Gallery
+
+{% include gallery caption="Subtractive CAM Manufacturing Project Gallery" %}
