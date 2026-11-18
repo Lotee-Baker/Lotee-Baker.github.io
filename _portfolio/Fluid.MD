@@ -2,7 +2,6 @@
 title: "Micro-Fluidic Device"
 excerpt: "A Biocompatible Lab-on-Chip Micro-Fluidic Particle Sorting Device"
 categories:
-  - Advanced Manufacturing
   - Research and Experimental
 header:
   image: /assets/img/micro1.jpeg
